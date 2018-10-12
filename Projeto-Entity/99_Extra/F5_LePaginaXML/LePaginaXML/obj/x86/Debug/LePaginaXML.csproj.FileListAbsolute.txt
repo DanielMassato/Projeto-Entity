@@ -1,0 +1,11 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\bin\Debug\LePaginaXML.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\bin\Debug\LePaginaXML.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\LePaginaXML.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\LePaginaXML.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\LePaginaXML.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\LePaginaXML.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\LePaginaXML.exe
+C:\Magno\Impacta\CSharp\Z_Extra\F5_LePaginaXML\LePaginaXML\obj\x86\Debug\LePaginaXML.pdb

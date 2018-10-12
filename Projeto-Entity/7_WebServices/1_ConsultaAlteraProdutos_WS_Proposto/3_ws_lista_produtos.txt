@@ -1,0 +1,37 @@
+// variável de retorno do método
+        List<ProdutosConsulta> result = new List<ProdutosConsulta>();
+        try
+        {
+            // com Lambda
+            result = ped.PRODUTOS
+                           .Join(ped.TIPOPRODUTO, p => p.COD_TIPO, t => t.COD_TIPO,
+                                 (p, t) => new { p, t })
+                           .Join(ped.UNIDADES, pt => pt.p.COD_UNIDADE, u => u.COD_UNIDADE,
+                                 (pt, u) => new { pt, u })
+                           .Select(ptu => new ProdutosConsulta
+                           {
+                               ID_PRODUTO = ptu.pt.p.ID_PRODUTO,
+                               COD_PRODUTO = ptu.pt.p.COD_PRODUTO,
+                               DESCRICAO = ptu.pt.p.DESCRICAO,
+                               TIPO = ptu.pt.t.TIPO,
+                               UNIDADE = ptu.u.UNIDADE,
+                               PRECO_VENDA = ptu.pt.p.PRECO_VENDA,
+                               QTD_REAL = ptu.pt.p.QTD_REAL,
+                               QTD_MINIMA = ptu.pt.p.QTD_MINIMA
+                           })
+                           .Where(ptu => ptu.DESCRICAO.Contains(descr) &&
+                                         ptu.TIPO.StartsWith(tipo))
+                           .OrderBy(ptu => ptu.DESCRICAO).ToList();
+           
+            // definir que não houve erro
+            erro = "";
+            // retornar consulta
+            return result;
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExecption(ex);
+
+            erro = ex.Message;
+            return null;
+        }

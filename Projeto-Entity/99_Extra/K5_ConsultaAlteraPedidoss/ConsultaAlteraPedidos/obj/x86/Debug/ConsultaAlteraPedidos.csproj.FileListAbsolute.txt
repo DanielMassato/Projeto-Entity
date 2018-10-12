@@ -1,0 +1,10 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\bin\Debug\ConsultaAlteraPedidos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\bin\Debug\ConsultaAlteraPedidos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\ConsultaAlteraPedidos.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\ConsultaAlteraPedidos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\ConsultaAlteraPedidos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\obj\x86\Debug\ConsultaAlteraPedidos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\K5_ConsultaAlteraPedidoss\ConsultaAlteraPedidos\bin\Debug\ConsultaAlteraPedidos.exe.config

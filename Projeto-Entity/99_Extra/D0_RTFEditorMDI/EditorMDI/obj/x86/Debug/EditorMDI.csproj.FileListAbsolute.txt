@@ -1,0 +1,16 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\bin\Debug\EditorMDI.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\bin\Debug\EditorMDI.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.FormEditor.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.FormPrincipal.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\bin\Debug\LibBasico.dll
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\bin\Debug\LibComponentes.dll
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\bin\Debug\LibBasico.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_1\EditorMDI\EditorMDI\bin\Debug\LibComponentes.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\12_RTFEditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\12_RTFEditorMDI\EditorMDI\obj\x86\Debug\EditorMDI.pdb

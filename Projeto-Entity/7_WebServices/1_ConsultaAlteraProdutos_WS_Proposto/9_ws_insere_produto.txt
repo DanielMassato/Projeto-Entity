@@ -1,0 +1,16 @@
+try
+        {
+            // adicionar o produto recebido na tabela PRODUTOS do EDM
+            ped.PRODUTOS.Add(pr);
+            // vai ficar com o status de INSERIDO. SaveChanges() vai executar
+            // um INSERT
+            ped.SaveChanges();
+            erro = "";
+            return pr.ID_PRODUTO;
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExcption(ex);
+            erro = ex.Message;
+            return -1;
+        }

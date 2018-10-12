@@ -1,0 +1,8 @@
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\bin\Debug\LibComponentes.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\bin\Debug\LibComponentes.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\obj\Debug\LibComponentes.csprojResolveAssemblyReference.cache
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\obj\Debug\LibComponentes.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\obj\Debug\LibComponentes.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\obj\Debug\LibComponentes.Properties.Resources.resources
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\obj\Debug\LibComponentes.csproj.GenerateResource.Cache
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\LibComponentes\obj\Debug\LibComponentes.DBNavigator1.resources

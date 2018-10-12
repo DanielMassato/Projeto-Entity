@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Curso.Classes</name>
+    </assembly>
+    <members>
+        <member name="F:Curso.Classes.FormInputBox.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Curso.Classes.FormInputBox.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Curso.Classes.FormInputBox.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Curso.Classes.Utils">
+            <summary>
+            A classe Utils possui rotinas úteis não necessariamente associadas a um único objeto
+            </summary>
+        </member>
+        <member name="M:Curso.Classes.Utils.In(System.Int32,System.Int32[])">
+            <summary>
+            Verifica se um elemento está contido em uma matriz
+            </summary>
+            <param name="n"></param>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.Delay(System.Int32)">
+            <summary>
+            Espera durante N milisegundos
+            </summary>
+            <param name="milisegundos"> Tempo de espera em milisegundos</param>
+        </member>
+        <member name="M:Curso.Classes.Utils.ToProperName(System.String)">
+            <summary>
+            Converte as primeiras letras de cada palavre do nome para maiúsculo
+            e as outras para minúsculo
+            </summary>
+            <param name="s">Nome que será convertido</param>
+            <returns>Nome convertido</returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.ReplicateString(System.String,System.UInt16)">
+            <summary>
+            Repete um string N vezes
+            </summary>
+            <param name="s">string que queremos repetir</param>
+            <param name="n">quantidade de repetições</param>
+            <returns>string replicado</returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.NesimaDataUtil(System.DateTime,System.UInt16)">
+            <summary>
+            Retorna com n-ésimo dia a partir de uma data
+            descontados sábados e domingos
+            </summary>
+            <param name="dt">Data inicial onde somaremos os dias</param>
+            <param name="n">Número de dias</param>
+            <returns>Data futura</returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.FirstDate(System.DateTime)">
+            <summary>
+            Primeira data do mês de uma data fornecida
+            </summary>
+            <param name="dt">Data da qual queremos descobrir a promeira data do mês</param>
+            <returns>Data do primeiro dia do mês da data fornecida</returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.LastDate(System.DateTime)">
+            <summary>
+            Última data do mês de uma data fornecida
+            </summary>
+            <param name="dt">Data dornecida</param>
+            <returns>Última data do mês correspondente</returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.Converte(System.String,System.String,System.String,System.Byte)">
+            <summary>
+            Rotina auxiliar do método ConverteExtenso()
+            </summary>
+            <param name="trinca"></param>
+            <param name="valor"></param>
+            <param name="numero"></param>
+            <param name="grandeza"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.ConverteExtenso(System.Double)">
+            <summary>
+            ConverteExtenso: Converte um valor numérico monetário para o seu extenso
+            </summary>
+            <param name="valorNum">Valor que queremos converter</param>
+            <returns>Extenso do número</returns>
+        </member>
+        <member name="T:Curso.Classes.StringList">
+            <summary>
+            Classe para manipulação de texto em memória
+            </summary>
+        </member>
+        <member name="M:Curso.Classes.StringList.#ctor(System.String)">
+            <summary>
+            Construtor da classe StringList
+            </summary>
+            <param name="fileName">Nome do arquivo que será lido para a memória</param>
+        </member>
+        <member name="M:Curso.Classes.StringList.#ctor">
+            <summary>
+            Construtor padrão da classe StringList
+            </summary>
+        </member>
+        <member name="M:Curso.Classes.StringList.GetEnumerator">
+            <summary>
+            Permite que a lista possa ser acessada com foreach
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Curso.Classes.StringList.StringListIterator(System.Int32,System.Int32)">
+            <summary>
+            Permite selecionar a faixa de elementos que o foreach irá executar
+            </summary>
+            <param name="start">Indice do elemento inicial</param>
+            <param name="end">Índice do elemento final</param>
+            <returns></returns>
+        </member>
+        <member name="M:Curso.Classes.StringList.Add(System.String)">
+            <summary>
+            Adiciona linha no final do texto
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:Curso.Classes.StringList.Insert(System.Int32,System.String)">
+            <summary>
+            Insere linha na posição informada
+            </summary>
+            <param name="pos">Posição onde a linha será inserida</param>
+            <param name="s">Conteúdo da linha que será inserida</param>
+        </member>
+        <member name="M:Curso.Classes.StringList.RemoveAt(System.Int32)">
+            <summary>
+            Remove a linha que está na posição "i"
+            </summary>
+            <param name="i"></param>
+        </member>
+        <member name="M:Curso.Classes.StringList.Clear">
+            <summary>
+            Apaga todas as linhas do texto
+            </summary>
+        </member>
+        <member name="M:Curso.Classes.StringList.SaveToFile(System.String)">
+            <summary>
+            Salva o texto que está na memória
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:Curso.Classes.StringList.LoadFromFile(System.String)">
+            <summary>
+            Carrega arquivo texto para a memória
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="P:Curso.Classes.StringList.Item(System.Int32)">
+            <summary>
+            Permite acessar uma instância de StringList informando um número de elemento
+            sl[ 0 ] = "TESTANDO"
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Curso.Classes.StringList.Count">
+            <summary>
+            Retorna com a quantidade de linhas do texto 
+            </summary>
+        </member>
+    </members>
+</doc>

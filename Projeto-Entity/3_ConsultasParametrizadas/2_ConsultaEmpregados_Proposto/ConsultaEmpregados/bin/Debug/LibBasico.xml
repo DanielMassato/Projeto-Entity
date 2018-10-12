@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibBasico</name>
+    </assembly>
+    <members>
+        <member name="T:LibBasico.Geometria1.Retangulo">
+            <summary>
+            Define as caracteirsticas de um retângulo
+            </summary>
+        </member>
+        <member name="P:LibBasico.Geometria1.Retangulo.Altura">
+            <summary>
+            Altura do retângulo
+            </summary>
+        </member>
+        <member name="F:LibBasico.Utils.DecimalSeparator">
+            <summary>
+            Retorna com o separador decimal configurado no sistema operacional
+            </summary>
+        </member>
+        <member name="M:LibBasico.Utils.FirstDate(System.DateTime)">
+            <summary>
+            Retorna com a primeira data do mês a partir de uma data informada
+            </summary>
+            <param name="dt">Data de referência</param>
+            <returns>Primeira data do mês</returns>
+        </member>
+        <member name="M:LibBasico.Utils.LastDate(System.DateTime)">
+            <summary>
+            Retorna com a última data do mes a partir de uma data informada
+            </summary>
+            <param name="dt">Data de referência</param>
+            <returns>Última data do mês</returns>
+        </member>
+        <member name="M:LibBasico.Utils.UnFormatFloatToString(System.String)">
+            <summary>
+            Prepara um string para que ele possa ser convertido em um número decimal, retirando todos os caracteres não numéricos
+            </summary>
+            <param name="s">String contendo o número que será preparado</param>
+            <returns>String pronto para ser convertido em número</returns>
+        </member>
+        <member name="M:LibBasico.Utils.UnFormaStringToFloat(System.String)">
+            <summary>
+            Prepara um string para que ele possa ser convertido em um número decimal
+            </summary>
+            <param name="s">String contendo o número que será preparado</param>
+            <returns>String convertido em decimal</returns>
+        </member>
+        <member name="M:LibBasico.Utils.UnFormaStringToInt(System.String)">
+            <summary>
+            SDFSDFSDFSDFSD
+            </summary>
+            <param name="s">SDFSDFSDF</param>
+            <returns>SDFSDF</returns>
+        </member>
+        <member name="M:LibBasico.Utils.ConverteExtenso(System.Double)">
+            <summary>
+            Converte um número para o seu extenso
+            </summary>
+            <param name="valorNum">Número que será convertido em extenso</param>
+            <returns>Extenso do número</returns>
+        </member>
+    </members>
+</doc>

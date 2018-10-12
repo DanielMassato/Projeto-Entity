@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\bin\Debug\Fatorial.exe.config
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\bin\Debug\Fatorial.exe
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\bin\Debug\Fatorial.pdb
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\obj\Debug\Fatorial.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\obj\Debug\Fatorial.Form1.resources
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\obj\Debug\Fatorial.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\obj\Debug\Fatorial.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\obj\Debug\Fatorial.exe
+C:\Magno\Impacta\CSharp\99_Extra\B5_Recursao\Fatorial\Fatorial\obj\Debug\Fatorial.pdb

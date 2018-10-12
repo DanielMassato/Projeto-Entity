@@ -1,0 +1,114 @@
+﻿        /// <summary>
+        /// Insere um novo produto na tabela PRODUTOS
+        /// </summary>
+        /// <param name="pr">Conteúdo dos campos</param>
+        /// <returns>Novo ID_PRODUTO gerado</returns>
+        public int ExecInsert(CamposProduto pr)
+        {
+            SqlCommand cmd = Connection.CreateCommand();
+            // são 12 parâmetros
+            cmd.CommandText = @"EXEC SP_PRODUTOS_INSERT @COD_PRODUTO, @DESCRICAO, @COD_UNIDADE, @COD_TIPO, 
+                      @PRECO_CUSTO, @PRECO_VENDA, @QTD_ESTIMADA, @QTD_REAL, @QTD_MINIMA, @CLAS_FISC, @IPI, @PESO_LIQ";
+            cmd.Parameters.AddWithValue("@COD_PRODUTO", pr.COD_PRODUTO);
+            cmd.Parameters.AddWithValue("@DESCRICAO", pr.DESCRICAO);
+            cmd.Parameters.AddWithValue("@COD_UNIDADE", pr.COD_UNIDADE);
+            cmd.Parameters.AddWithValue("@COD_TIPO", pr.COD_TIPO);
+            cmd.Parameters.AddWithValue("@PRECO_CUSTO", pr.PRECO_CUSTO);
+            cmd.Parameters.AddWithValue("@PRECO_VENDA", pr.PRECO_VENDA);
+            cmd.Parameters.AddWithValue("@QTD_ESTIMADA", 0);
+            cmd.Parameters.AddWithValue("@QTD_REAL", pr.QTD_REAL);
+            cmd.Parameters.AddWithValue("@QTD_MINIMA", pr.QTD_MINIMA);
+            cmd.Parameters.AddWithValue("@CLAS_FISC", pr.CLAS_FISC);
+            cmd.Parameters.AddWithValue("@IPI", pr.IPI);
+            cmd.Parameters.AddWithValue("@PESO_LIQ", pr.PESO_LIQ);
+
+            bool connected = Connection.State == ConnectionState.Open;
+            try
+            {
+                if (!connected) Connection.Open();
+                // lê o retorno da linha
+                int id = Convert.ToInt32(cmd.ExecuteScalar());
+                // propriedade Error herdada de OleDbQuery
+                Error = null;
+                return id;
+            }
+            catch (Exception ex)
+            {
+                // propriedade Error herdade de OleDbQuery
+                Error = ex;
+                return -1;
+            }
+            finally
+            {
+                if (!connected) Connection.Close();
+            }
+        }
+
+
+        public void ExecUpdate(CamposProduto pr)
+        {
+            SqlCommand cmd = Connection.CreateCommand();
+            // são 12 parâmetros
+            cmd.CommandText = @"EXEC SP_PRODUTOS_UPDATE @ID_PRODUTO, @COD_PRODUTO, @DESCRICAO, @COD_UNIDADE, @COD_TIPO, 
+                      @PRECO_CUSTO, @PRECO_VENDA, @QTD_ESTIMADA, @QTD_REAL, @QTD_MINIMA, @CLAS_FISC, @IPI, @PESO_LIQ";
+            
+            cmd.Parameters.AddWithValue("@ID_PRODUTO", pr.ID_PRODUTO);
+            
+            cmd.Parameters.AddWithValue("@COD_PRODUTO", pr.COD_PRODUTO);
+            cmd.Parameters.AddWithValue("@DESCRICAO", pr.DESCRICAO);
+            cmd.Parameters.AddWithValue("@COD_UNIDADE", pr.COD_UNIDADE);
+            cmd.Parameters.AddWithValue("@COD_TIPO", pr.COD_TIPO);
+            cmd.Parameters.AddWithValue("@PRECO_CUSTO", pr.PRECO_CUSTO);
+            cmd.Parameters.AddWithValue("@PRECO_VENDA", pr.PRECO_VENDA);
+            cmd.Parameters.AddWithValue("@QTD_ESTIMADA", 0);
+            cmd.Parameters.AddWithValue("@QTD_REAL", pr.QTD_REAL);
+            cmd.Parameters.AddWithValue("@QTD_MINIMA", pr.QTD_MINIMA);
+            cmd.Parameters.AddWithValue("@CLAS_FISC", pr.CLAS_FISC);
+            cmd.Parameters.AddWithValue("@IPI", pr.IPI);
+            cmd.Parameters.AddWithValue("@PESO_LIQ", pr.PESO_LIQ);
+
+            bool connected = Connection.State == ConnectionState.Open;
+            try
+            {
+                if (!connected) Connection.Open();
+                // lê o retorno da linha
+                cmd.ExecuteNonQuery();
+                // propriedade Error herdada de OleDbQuery
+                Error = null;                
+            }
+            catch (Exception ex)
+            {
+                // propriedade Error herdade de OleDbQuery
+                Error = ex;                
+            }
+            finally
+            {
+                if (!connected) Connection.Close();
+            }
+        }
+
+        public void ExecDelete(int idProduto)
+        {
+            SqlCommand cmd = Connection.CreateCommand();
+            // são 12 parâmetros
+            cmd.CommandText = @"EXEC SP_PRODUTOS_DELETE " + idProduto;
+
+            bool connected = Connection.State == ConnectionState.Open;
+            try
+            {
+                if (!connected) Connection.Open();
+                // lê o retorno da linha
+                cmd.ExecuteNonQuery();
+                // propriedade Error herdada de OleDbQuery
+                Error = null;
+            }
+            catch (Exception ex)
+            {
+                // propriedade Error herdade de OleDbQuery
+                Error = ex;
+            }
+            finally
+            {
+                if (!connected) Connection.Close();
+            }
+        }

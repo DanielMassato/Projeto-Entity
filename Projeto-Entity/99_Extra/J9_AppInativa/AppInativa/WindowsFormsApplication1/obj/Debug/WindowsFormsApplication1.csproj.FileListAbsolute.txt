@@ -1,0 +1,11 @@
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormPrincipal.resources
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormA.resources
+C:\Magno\Impacta\CSharp\Z_Extra\J9_AppInativa\AppInativa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormB.resources

@@ -1,0 +1,12 @@
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\bin\Debug\ExitWindows.exe.config
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\obj\Debug\ExitWindows.csprojResolveAssemblyReference.cache
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\obj\Debug\ExitWindows.Form1.resources
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\obj\Debug\ExitWindows.Properties.Resources.resources
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\obj\Debug\ExitWindows.csproj.GenerateResource.Cache
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\bin\Debug\ExitWindows.exe
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\bin\Debug\ExitWindows.pdb
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\obj\Debug\ExitWindows.exe
+C:\CSharp_Mod_I\ExitWindows\ExitWindows\obj\Debug\ExitWindows.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\70_WindowsDLL\ExitWindows\ExitWindows\bin\Debug\ExitWindows.exe.config
+C:\Magno\Impacta\CSharp\Z_Extra\70_WindowsDLL\ExitWindows\ExitWindows\obj\Debug\ExitWindows.exe
+C:\Magno\Impacta\CSharp\Z_Extra\70_WindowsDLL\ExitWindows\ExitWindows\obj\Debug\ExitWindows.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layout", "Layout.csproj", "{26B45BFC-A490-44DF-ACD3-E823F3321159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorTexto", "..\..\1_Editor\EditorTexto\EditorTexto.csproj", "{806D5F94-6401-4A7A-B837-A994C442ECAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26B45BFC-A490-44DF-ACD3-E823F3321159}.Debug|x86.ActiveCfg = Debug|x86
+		{26B45BFC-A490-44DF-ACD3-E823F3321159}.Debug|x86.Build.0 = Debug|x86
+		{26B45BFC-A490-44DF-ACD3-E823F3321159}.Release|x86.ActiveCfg = Release|x86
+		{26B45BFC-A490-44DF-ACD3-E823F3321159}.Release|x86.Build.0 = Release|x86
+		{806D5F94-6401-4A7A-B837-A994C442ECAD}.Debug|x86.ActiveCfg = Debug|x86
+		{806D5F94-6401-4A7A-B837-A994C442ECAD}.Debug|x86.Build.0 = Debug|x86
+		{806D5F94-6401-4A7A-B837-A994C442ECAD}.Release|x86.ActiveCfg = Release|x86
+		{806D5F94-6401-4A7A-B837-A994C442ECAD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

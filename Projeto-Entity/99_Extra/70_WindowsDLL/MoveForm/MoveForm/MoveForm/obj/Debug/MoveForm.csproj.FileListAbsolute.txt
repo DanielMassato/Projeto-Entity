@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\bin\Debug\MoveForm.exe.config
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\bin\Debug\MoveForm.exe
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\bin\Debug\MoveForm.pdb
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\obj\Debug\MoveForm.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\obj\Debug\MoveForm.Form1.resources
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\obj\Debug\MoveForm.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\obj\Debug\MoveForm.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\obj\Debug\MoveForm.exe
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\70_WindowsDLL\MoveForm\MoveForm\MoveForm\obj\Debug\MoveForm.pdb

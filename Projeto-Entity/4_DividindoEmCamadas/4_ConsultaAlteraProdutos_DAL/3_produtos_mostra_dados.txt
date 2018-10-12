@@ -1,0 +1,13 @@
+﻿
+                // mostrar os dados na tela
+                tbxCOD_PRODUTO.Text = pr.COD_PRODUTO;
+                tbxDESCRICAO.Text = pr.DESCRICAO;
+                tbxCOD_TIPO.Text = pr.COD_TIPO.ToString();
+                tbxCOD_UNIDADE.Text = pr.COD_UNIDADE.ToString();
+
+                updPRECO_CUSTO.Value = pr.PRECO_CUSTO;
+                updPRECO_VENDA.Value = pr.PRECO_VENDA;
+                updQTD_MINIMA.Value = pr.QTD_MINIMA;
+                updQTD_REAL.Value = pr.QTD_REAL;
+                tbxCLAS_FISC.Text = pr.CLAS_FISC;
+                updIPI.Value = pr.IPI;

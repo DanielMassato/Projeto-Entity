@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\bin\Debug\EnaDisGroupBox.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\bin\Debug\EnaDisGroupBox.pdb
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\EnaDisGroupBox.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\EnaDisGroupBox.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\EnaDisGroupBox.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\05_EnableDisable_GB\EnaDisGroupBox\obj\x86\Debug\EnaDisGroupBox.pdb

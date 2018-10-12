@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\ExprRegular.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\bin\Debug\ExprRegular.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\bin\Debug\ExprRegular.pdb
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\ExprRegular.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\ExprRegular.pdb
+C:\Magno\Impacta\CSharp\2010\Z_Extra\A0_ExprRegular\ExprRegular\ExprRegular\obj\x86\Debug\ExprRegular.FormPrincipal.resources

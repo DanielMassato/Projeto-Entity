@@ -1,0 +1,99 @@
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\Magno\Impacta\CSharp\2010\Modulo_2\110826\Modulo_2\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\Magno\Impacta\CSharp\2010\Modulo_2\110826\Modulo_2\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\110826\Modulo_2\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\111104\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\Magno\Impacta\CSharp\2010\Modulo_2\111104\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\111104\CSharp_Mod_II\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\6_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\_propostos\6_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\CSHARP_MODII_BARCO\CSharp_Mod_II on 172.16.25.1\5_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\Magno\Impacta\CSharp\2010\Modulo_2\121201\5_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\Magno\Impacta\CSharp\2010\Modulo_2\121201\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\121201\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\_propostos\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\CSharp_Mod_II_Kit\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II_Kit\5_ConsultaProdutos\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\3_ConsultasParametrizadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\3_ConsultasParametrizadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csprojResolveAssemblyReference.cache
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csproj.GenerateResource.Cache
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csprojResolveAssemblyReference.cache
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\CSharp_Mod_II\141024\CSharp_Mod_II_parte1\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csproj.GenerateResource.Cache
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csprojResolveAssemblyReference.cache
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csproj.GenerateResource.Cache
+C:\CSharp_Mod_II\CSharp_Mod_II\4_ConsultasParametrizadas\3_ConsultaProdutos_Resolvido\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csprojResolveAssemblyReference.cache
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\CSharp_AD\CSharp_AcessoDados\5_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe.config
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\bin\Debug\ConsultaProdutos.pdb
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Form1.resources
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.exe
+C:\Magno\Impacta\CSharp\2015\MOD_II\Modelo_Mod_II\CSharp_AD_Proposto\4_DividindoEmCamadas\1_ConsultaProdutos_Proposto\ConsultaProdutos\obj\x86\Debug\ConsultaProdutos.pdb

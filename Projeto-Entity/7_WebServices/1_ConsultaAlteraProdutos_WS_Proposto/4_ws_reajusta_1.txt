@@ -1,0 +1,23 @@
+SqlCommand cmd = (SqlCommand)ped.Database.Connection.CreateCommand();
+        cmd.CommandText = @"UPDATE PRODUTOS SET PRECO_VENDA = PRECO_VENDA * @fator
+                            WHERE ID_PRODUTO IN (" + ids + ")";
+
+        cmd.Parameters.AddWithValue("@fator", 1 + porc / 100);
+
+        try
+        {
+            cmd.Connection.Open();
+            int linhas = cmd.ExecuteNonQuery();
+            erro = "";
+            return linhas;
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExcption(ex);
+            erro = ex.Message;
+            return -1;
+        }
+        finally
+        {
+            cmd.Connection.Close();
+        }

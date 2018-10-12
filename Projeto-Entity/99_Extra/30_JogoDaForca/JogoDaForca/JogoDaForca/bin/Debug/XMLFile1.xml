@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<palavras>
+  <palavra>
+    <nome>COMPUTADOR</nome>
+    <dica>Tem uma tela</dica>
+    <dica>Tem teclas</dica>
+    <dica>Processa dados</dica>
+  </palavra>
+  <palavra>
+    <nome>AUTOMOVEL</nome>
+    <dica>Tem rodas</dica>
+    <dica>Tem bancos</dica>
+    <dica>Transporta pessoas</dica>
+  </palavra>
+  <palavra>
+    <nome>TELEVISAO</nome>
+    <dica>Exibe imagens</dica>
+    <dica>Exibe filmes, noticiários etc...</dica>
+    <dica>É um eletrodoméstico</dica>
+  </palavra>
+</palavras>

@@ -1,0 +1,13 @@
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\bin\Debug\EditorTexto.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\bin\Debug\EditorTexto.pdb
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\MainWindow.baml
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\MainWindow.g.cs
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\App.g.cs
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\EditorTexto_MarkupCompile.cache
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\EditorTexto.g.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\EditorTexto.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\EditorTexto.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\W0_WPF\1_Editor\EditorTexto\obj\x86\Debug\EditorTexto.pdb

@@ -1,0 +1,12 @@
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\bin\Debug\ExChartComBD.exe.config
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\bin\Debug\ExChartComBD.exe
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\bin\Debug\ExChartComBD.pdb
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.Form1.resources
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.exe
+C:\Magno\Impacta\CSharp\2012\CSharp_Mod_II_Kit\Treinamentos\Modelo_Mod_II\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.pdb
+C:\Magno\Impacta\CSharp\2013\99_Extra\J7_ExChartComBD\ExChartComBD\bin\Debug\ExChartComBD.exe.config
+C:\Magno\Impacta\CSharp\2013\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.exe
+C:\Magno\Impacta\CSharp\2013\99_Extra\J7_ExChartComBD\ExChartComBD\obj\Debug\ExChartComBD.pdb

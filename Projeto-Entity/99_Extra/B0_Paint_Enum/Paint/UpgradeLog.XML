@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Paint">
+</Property><Property Name="Solution File" Value="C:\CSharp_Mod_I\CSharp_Mod_I\9_Paint_Enum\Paint\Paint.sln">
+</Property><Property Name="Date" Value="quarta-feira, 13 de janeiro de 2010">
+</Property><Property Name="Time" Value="15:14">
+</Property></Properties><Event ErrorLevel="0" Project="Paint" Source="Paint.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Paint" Source="Paint.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Paint.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Paint.sln" Description="Converted">
+</Event></UpgradeLog>

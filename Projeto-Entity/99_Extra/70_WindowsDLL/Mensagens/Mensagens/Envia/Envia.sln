@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Envia", "Envia\Envia.csproj", "{0B416CBF-36B9-4D05-8AC1-DDD9702A1397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recebe", "..\Recebe\Recebe.csproj", "{40050660-252D-4A56-8BBA-E23C62AC31A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B416CBF-36B9-4D05-8AC1-DDD9702A1397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B416CBF-36B9-4D05-8AC1-DDD9702A1397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B416CBF-36B9-4D05-8AC1-DDD9702A1397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B416CBF-36B9-4D05-8AC1-DDD9702A1397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40050660-252D-4A56-8BBA-E23C62AC31A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40050660-252D-4A56-8BBA-E23C62AC31A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40050660-252D-4A56-8BBA-E23C62AC31A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40050660-252D-4A56-8BBA-E23C62AC31A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

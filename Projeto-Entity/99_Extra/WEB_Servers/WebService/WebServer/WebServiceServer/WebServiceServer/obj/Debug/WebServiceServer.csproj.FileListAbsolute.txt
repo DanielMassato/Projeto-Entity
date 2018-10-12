@@ -1,0 +1,6 @@
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\WebServer\WebServiceServer\WebServiceServer\bin\WebServiceServer.dll
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\WebServer\WebServiceServer\WebServiceServer\bin\WebServiceServer.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\WebServer\WebServiceServer\WebServiceServer\obj\Debug\WebServiceServer.dll
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\WebServer\WebServiceServer\WebServiceServer\obj\Debug\WebServiceServer.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\WebServer\WebServiceServer\WebServiceServer\bin\WebServiceServer.dll.config
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\WebServer\WebServiceServer\WebServiceServer\obj\Debug\WebServiceServer.csprojResolveAssemblyReference.cache

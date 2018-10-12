@@ -1,0 +1,28 @@
+try
+        {
+            // consultar o produto que será alterado
+            var prod = ped.PRODUTOS.Where(p => p.ID_PRODUTO == pr.ID_PRODUTO).First();
+            // alterar os dados deste produto com os dados digitados na tela
+            // arquivo AlteraProduto.txt (172.16.2.25)
+            prod.COD_PRODUTO = pr.COD_PRODUTO;
+            prod.DESCRICAO = pr.DESCRICAO;
+            prod.COD_TIPO = pr.COD_TIPO;
+            prod.COD_UNIDADE = pr.COD_UNIDADE;
+            prod.CLAS_FISC = pr.CLAS_FISC;
+            prod.PESO_LIQ = pr.PESO_LIQ;
+            prod.IPI = pr.IPI;
+            prod.PRECO_CUSTO = pr.PRECO_CUSTO;
+            prod.PRECO_VENDA = pr.PRECO_VENDA;
+            prod.QTD_ESTIMADA = pr.QTD_ESTIMADA;
+            prod.QTD_REAL = pr.QTD_REAL;
+            prod.QTD_MINIMA = pr.QTD_MINIMA;
+            // este registros vai ficar com o status de ALTERADO na memória
+            // o método SaveChanges() aplica a alteração necessária
+            ped.SaveChanges();
+            erro = "";
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExcption(ex);
+            erro = ex.Message;
+        }

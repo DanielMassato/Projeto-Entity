@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Envia">
+</Property><Property Name="Solution File" Value="C:\CSharp_Mod_I\CSharp_Mod_I\X_Extra\03_WindowsDLL\Mensagens\Mensagens\Envia\Envia.sln">
+</Property><Property Name="Date" Value="quarta-feira, 21 de setembro de 2011">
+</Property><Property Name="Time" Value="09:12">
+</Property></Properties><Event ErrorLevel="0" Project="Envia" Source="Envia\Envia.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Envia" Source="Envia\Envia.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Recebe" Source="..\Recebe\Recebe.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Recebe" Source="..\Recebe\Recebe.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Envia.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Envia.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Envia" Source="Envia\Envia.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Recebe" Source="..\Recebe\Recebe.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

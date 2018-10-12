@@ -1,0 +1,40 @@
+            // definir o comando
+            SqlCommand cmd = conn.CreateCommand();
+            // quando a procedure retorna parâmetros de OUTPUT, não
+            // podemos colocar o comando EXEC em commandText...
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "STP_COPIA_PEDIDO_P";
+            // os parâmetros de input e output são passados separadamente
+            // parâmetro de INPUT vai ser passado com o seu valor
+            cmd.Parameters.AddWithValue("@NUM_PEDIDO_FONT", updNumPed.Value);
+            // parâmetros de output só terão valor após a execução da procedure
+            cmd.Parameters.Add("@NUM_PEDIDO_NOVO", SqlDbType.Int);
+            cmd.Parameters["@NUM_PEDIDO_NOVO"].Direction = ParameterDirection.Output;
+
+            cmd.Parameters.Add("@MSG", SqlDbType.VarChar, 1000);
+            cmd.Parameters["@MSG"].Direction = ParameterDirection.Output;
+
+            cmd.Parameters.Add("@RETURN_VALUE", SqlDbType.VarChar, 1000);
+            cmd.Parameters["@RETURN_VALUE"].Direction = ParameterDirection.ReturnValue;
+            try
+            {
+                // abrir a conexão
+                conn.Open();
+                // executar o comando (não devolve registros)
+                cmd.ExecuteNonQuery();
+                // ler os parâmetros de output
+                int numPed = (int)cmd.Parameters["@NUM_PEDIDO_NOVO"].Value;
+                string msg = cmd.Parameters["@MSG"].Value.ToString();
+                int ret = (int)cmd.Parameters["@RETURN_VALUE"].Value;
+
+                if (ret != 0) lblResposta.Text = "Erro: " + msg;
+                else lblResposta.Text = "Gerado pedido " + numPed;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }

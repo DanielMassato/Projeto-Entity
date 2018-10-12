@@ -1,0 +1,7 @@
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\bin\Debug\LibPedidosDAL.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\bin\Debug\LibPedidosDAL.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\bin\Debug\LibFWGeral.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\bin\Debug\LibFWGeral.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\obj\Debug\LibPedidosDAL.csprojResolveAssemblyReference.cache
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\obj\Debug\LibPedidosDAL.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibPedidosDAL\obj\Debug\LibPedidosDAL.pdb

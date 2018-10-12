@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DualListBox">
+</Property><Property Name="Solution File" Value="C:\Magno\Impacta\CSharp\Curso_2008\ModII\ProjResolvidos\1_revisao\3_DualListBox\DualListBox.sln">
+</Property><Property Name="Date" Value="domingo, 6 de dezembro de 2009">
+</Property><Property Name="Time" Value="11:57">
+</Property></Properties><Event ErrorLevel="0" Project="DualListBox" Source="DualListBox.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DualListBox" Source="DualListBox.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DualListBox.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DualListBox.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DualListBox" Source="DualListBox.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

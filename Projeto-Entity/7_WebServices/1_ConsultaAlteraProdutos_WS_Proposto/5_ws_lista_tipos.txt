@@ -1,0 +1,18 @@
+try
+        {
+
+            // colocar os elementos na lista de retorno
+            List<TIPOPRODUTO> result = new List<TIPOPRODUTO>();
+            
+            result = ped.TIPOPRODUTO.OrderBy(t => t.TIPO).ToList();
+            
+
+            erro = "";
+            return result;
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExecption(ex);
+            erro = ex.Message;
+            return null;
+        }

@@ -1,0 +1,12 @@
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\bin\Debug\ClientWebServiceWF.exe.config
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\bin\Debug\ClientWebServiceWF.exe
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\bin\Debug\ClientWebServiceWF.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.Form1.resources
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.exe
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.csprojResolveAssemblyReference.cache
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\bin\Debug\ClientWebServiceWF.exe.config
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\WEB_Servers\WebService\ClientWF\ClientWebServiceWF\obj\Debug\ClientWebServiceWF.pdb

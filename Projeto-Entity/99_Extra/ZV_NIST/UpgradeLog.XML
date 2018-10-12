@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DigitalClockConsole">
+</Property><Property Name="Solution File" Value="C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\DigitalClockConsole.sln">
+</Property><Property Name="Date" Value="quarta-feira, 1 de fevereiro de 2012">
+</Property><Property Name="Time" Value="11:49">
+</Property></Properties><Event ErrorLevel="0" Project="DigitalClockConsole" Source="DigitalClockConsole\DigitalClockConsole.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DigitalClockConsole" Source="DigitalClockConsole\DigitalClockConsole.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NistClock" Source="NistClock\NistClock.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NistClock" Source="NistClock\NistClock.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GuiNistClock" Source="GuiNistClock\GuiNistClock.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GuiNistClock" Source="GuiNistClock\GuiNistClock.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Nist" Source="Nist\Nist.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Nist" Source="Nist\Nist.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DigitalClockConsole.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DigitalClockConsole.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DigitalClockConsole" Source="DigitalClockConsole\DigitalClockConsole.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NistClock" Source="NistClock\NistClock.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GuiNistClock" Source="GuiNistClock\GuiNistClock.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Nist" Source="Nist\Nist.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

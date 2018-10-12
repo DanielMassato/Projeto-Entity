@@ -1,0 +1,20 @@
+1. Criar App.config definindo o string de conexão
+
+2. Criar a classe Conexoes contendo
+	2.1. propriedade ConnectionString
+	2.2. método GetConnection
+
+3. No form, declarar 3 variáveis para toda o form
+	2.1. OleDbConnection
+	2.2. DataTable
+	2.3. BindingSource
+
+4. Concluir o botão filtra, fazendo o SELECT funcionar
+   e ser exibido no DataGridView
+
+5. Fazer os eventos Click dos botões de movimentação
+
+6. Criar método Locate para fazer pesquisa incremental
+
+7. Evento TextChanged de ttbxProcuraNome para concluir
+   a pesquisa incremental

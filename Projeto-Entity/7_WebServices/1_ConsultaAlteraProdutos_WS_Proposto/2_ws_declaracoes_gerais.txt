@@ -1,0 +1,11 @@
+    // instancia objeto da classe PEDIDOSEntities para termos
+    // acesso às tabelas
+    PRODUTOSEntities ped = new PRODUTOSEntities();
+
+    Exception getInnerExcption(Exception ex)
+    {
+        if (ex.InnerException == null)
+            return ex;
+        else
+            return getInnerExcption(ex.InnerException);
+    }

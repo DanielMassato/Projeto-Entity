@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Curso.Classes</name>
+    </assembly>
+    <members>
+        <member name="T:Curso.Classes.Utils">
+            <summary>
+            Rotinas auxiliares
+            </summary>
+        </member>
+        <member name="M:Curso.Classes.Utils.NesimaDataUtil(System.DateTime,System.UInt16)">
+            <summary>
+            Calcula a n-ésima data útil a partir da data fornecida
+            </summary>
+            <param name="dt">Data de partida</param>
+            <param name="n">Número de dias úteis que iremos adicionar nesta data</param>
+            <returns>Data informada acrecida de n dias úteis</returns>
+        </member>
+        <member name="M:Curso.Classes.Utils.FirstDate(System.DateTime)">
+            <summary>
+            Retorna com a primeira data do mês correspondente a data fornecida
+            </summary>
+            <param name="dt">Data da qual queremos gerar a primeira data do mês</param>
+            <returns>Primeira data do mês correspondente a data fornecida</returns>
+        </member>
+        <member name="M:Curso.Classes.StringList.SaveToFile(System.String)">
+            <summary>
+            Salva o conteúdo do StringList em arquivo
+            </summary>
+            <param name="fileName">Caminho seguido do nome do arquivo</param>
+        </member>
+    </members>
+</doc>

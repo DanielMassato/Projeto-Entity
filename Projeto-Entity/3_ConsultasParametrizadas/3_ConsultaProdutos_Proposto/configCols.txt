@@ -1,0 +1,41 @@
+﻿// títulos das colunas
+            string[] titulos = {"ID:", "Código:","Descrição:","Tipo:","Unid.:","Pr.Venda:",
+                                "Qtd.Real:", "Qtd.Mín.:"};
+            // formatação das colunas numéricas
+            string[] formatos = { "0000", "", "", "", "", "R$ 0.00", "#,##0", "#,##0" };
+            // alinhamentos das colunas
+            string[] align = { "^", "<", "<", "<", "<", ">", ">", ">" };
+
+            // percorrer as colunas do grid
+            for (int c = 0; c < dgvProdutos.Columns.Count; c++)
+            {
+                dgvProdutos.Columns[c].HeaderText = titulos[c];
+                dgvProdutos.Columns[c].DefaultCellStyle.Format = formatos[c];
+
+                if (align[c] == "^")
+                {
+                    // alinha os dados
+                    dgvProdutos.Columns[c].DefaultCellStyle.Alignment =
+                                             DataGridViewContentAlignment.MiddleCenter;
+                    // alinha o título da coluna
+                    dgvProdutos.Columns[c].HeaderCell.Style.Alignment =
+                                             DataGridViewContentAlignment.MiddleCenter;
+                }
+                else if (align[c] == "<")
+                {
+                    // alinha os dados
+                    dgvProdutos.Columns[c].DefaultCellStyle.Alignment =
+                                             DataGridViewContentAlignment.MiddleLeft;
+                    // alinha o título da coluna
+                    dgvProdutos.Columns[c].HeaderCell.Style.Alignment =
+                                             DataGridViewContentAlignment.MiddleLeft;
+                }
+                else if (align[c] == ">")
+                {
+                    // alinha os dados
+                    dgvProdutos.Columns[c].DefaultCellStyle.Alignment =
+                                             DataGridViewContentAlignment.MiddleRight;
+                    // alinha o título da coluna
+                    dgvProdutos.Columns[c].HeaderCell.Style.Alignment =
+                                             DataGridViewContentAlignment.MiddleRight;
+                }

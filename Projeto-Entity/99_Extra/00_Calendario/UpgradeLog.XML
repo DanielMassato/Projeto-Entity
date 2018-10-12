@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Calendario">
+</Property><Property Name="Solution File" Value="D:\Impacta\Impacta\CSharp\Projetos\Projects\X_Extra\Calendario\Calendario.sln">
+</Property><Property Name="Date" Value="sexta-feira, 15 de janeiro de 2010">
+</Property><Property Name="Time" Value="17:24">
+</Property></Properties><Event ErrorLevel="0" Project="Calendario" Source="Calendario\Calendario.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Calendario" Source="Calendario\Calendario.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Curso.Controles" Source="..\..\H_Curso.Controles\Curso.Controles\Curso.Controles\Curso.Controles.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Curso.Controles" Source="..\..\H_Curso.Controles\Curso.Controles\Curso.Controles\Curso.Controles.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Calendario.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Calendario.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Calendario" Source="Calendario\Calendario.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Curso.Controles" Source="..\..\H_Curso.Controles\Curso.Controles\Curso.Controles\Curso.Controles.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

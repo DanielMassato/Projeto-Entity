@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PEDIDOSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="CODCLI" />
+    </Key>
+    <Property Name="CODCLI" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOME" Type="varchar" MaxLength="50" />
+    <Property Name="FANTASIA" Type="varchar" MaxLength="20" />
+    <Property Name="ENDERECO" Type="varchar" MaxLength="60" />
+    <Property Name="BAIRRO" Type="varchar" MaxLength="20" />
+    <Property Name="CIDADE" Type="varchar" MaxLength="20" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="2" />
+    <Property Name="CEP" Type="varchar" MaxLength="8" />
+    <Property Name="END_COB" Type="varchar" MaxLength="60" />
+    <Property Name="BAI_COB" Type="varchar" MaxLength="20" />
+    <Property Name="CID_COB" Type="varchar" MaxLength="20" />
+    <Property Name="EST_COB" Type="varchar" MaxLength="2" />
+    <Property Name="CEP_COB" Type="varchar" MaxLength="8" />
+    <Property Name="CNPJ" Type="varchar" MaxLength="18" />
+    <Property Name="INSCRICAO" Type="varchar" MaxLength="19" />
+    <Property Name="FONE1" Type="varchar" MaxLength="15" />
+    <Property Name="FAX" Type="varchar" MaxLength="15" />
+    <Property Name="E_MAIL" Type="varchar" MaxLength="35" />
+    <Property Name="DATA_CAD" Type="datetime" />
+    <Property Name="ICMS" Type="float" />
+    <Property Name="REVENDA_CONSUMIDOR" Type="char" MaxLength="1" />
+    <Property Name="COD_ESTADO" Type="int" />
+  </EntityType>
+  <EntityType Name="PEDIDOS">
+    <Key>
+      <PropertyRef Name="NUM_PEDIDO" />
+    </Key>
+    <Property Name="NUM_PEDIDO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CODCLI" Type="int" />
+    <Property Name="CODVEN" Type="smallint" />
+    <Property Name="DATA_EMISSAO" Type="datetime" />
+    <Property Name="VLR_TOTAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="SITUACAO" Type="varchar" MaxLength="1" />
+    <Property Name="OBSERVACOES" Type="text" />
+  </EntityType>
+  <EntityType Name="VENDEDORES">
+    <Key>
+      <PropertyRef Name="CODVEN" />
+    </Key>
+    <Property Name="CODVEN" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOME" Type="varchar" MaxLength="50" />
+    <Property Name="FANTASIA" Type="varchar" MaxLength="20" />
+    <Property Name="ENDERECO" Type="varchar" MaxLength="60" />
+    <Property Name="BAIRRO" Type="varchar" MaxLength="20" />
+    <Property Name="CIDADE" Type="varchar" MaxLength="20" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="2" />
+    <Property Name="CEP" Type="varchar" MaxLength="8" />
+    <Property Name="CPF" Type="varchar" MaxLength="18" />
+    <Property Name="RG" Type="varchar" MaxLength="15" />
+    <Property Name="FONE" Type="varchar" MaxLength="15" />
+    <Property Name="FAX" Type="varchar" MaxLength="15" />
+    <Property Name="E_MAIL" Type="varchar" MaxLength="35" />
+    <Property Name="DATA_CAD" Type="datetime" />
+    <Property Name="DATA_NASC" Type="datetime" />
+    <Property Name="PORC_COMISSAO" Type="decimal" Precision="5" Scale="2" />
+  </EntityType>
+  <Association Name="FK_PEDIDOS_CLIENTES">
+    <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="0..1" />
+    <End Role="PEDIDOS" Type="Self.PEDIDOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="CODCLI" />
+      </Principal>
+      <Dependent Role="PEDIDOS">
+        <PropertyRef Name="CODCLI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PEDIDOS_VENDEDORES">
+    <End Role="VENDEDORES" Type="Self.VENDEDORES" Multiplicity="0..1" />
+    <End Role="PEDIDOS" Type="Self.PEDIDOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VENDEDORES">
+        <PropertyRef Name="CODVEN" />
+      </Principal>
+      <Dependent Role="PEDIDOS">
+        <PropertyRef Name="CODVEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PEDIDOSModelStoreContainer">
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PEDIDOS" EntityType="Self.PEDIDOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VENDEDORES" EntityType="Self.VENDEDORES" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PEDIDOS_CLIENTES" Association="Self.FK_PEDIDOS_CLIENTES">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="PEDIDOS" EntitySet="PEDIDOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PEDIDOS_VENDEDORES" Association="Self.FK_PEDIDOS_VENDEDORES">
+      <End Role="VENDEDORES" EntitySet="VENDEDORES" />
+      <End Role="PEDIDOS" EntitySet="PEDIDOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

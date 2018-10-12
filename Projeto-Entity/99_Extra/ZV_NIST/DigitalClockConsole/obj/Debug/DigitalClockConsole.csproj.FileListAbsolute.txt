@@ -1,0 +1,5 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\DigitalClockConsole\bin\Debug\DigitalClockConsole.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\DigitalClockConsole\bin\Debug\DigitalClockConsole.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\DigitalClockConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\DigitalClockConsole\obj\Debug\DigitalClockConsole.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\DigitalClockConsole\obj\Debug\DigitalClockConsole.pdb

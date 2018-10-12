@@ -1,0 +1,14 @@
+try
+        {
+            // consultar o produto que será excluído
+            var prod = ped.PRODUTOS.Where(p => p.ID_PRODUTO == idProduto).First();
+            // marcar este produto com EXCLUIDO
+            ped.PRODUTOS.Remove(prod);
+            // aplicar as alterações no banco
+            ped.SaveChanges();
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExcption(ex);
+            erro = ex.Message;
+        }

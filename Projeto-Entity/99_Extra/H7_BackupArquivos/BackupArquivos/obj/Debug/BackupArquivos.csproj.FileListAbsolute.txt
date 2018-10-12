@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\bin\Debug\BackupArquivos.exe.config
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\bin\Debug\BackupArquivos.exe
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\bin\Debug\BackupArquivos.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\obj\Debug\BackupArquivos.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\obj\Debug\BackupArquivos.Form1.resources
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\obj\Debug\BackupArquivos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\obj\Debug\BackupArquivos.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\obj\Debug\BackupArquivos.exe
+C:\Magno\Impacta\CSharp\Z_Extra\H7_BackupArquivos\BackupArquivos\obj\Debug\BackupArquivos.pdb

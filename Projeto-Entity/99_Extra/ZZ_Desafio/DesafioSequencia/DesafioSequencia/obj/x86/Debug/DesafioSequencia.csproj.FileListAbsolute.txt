@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\DesafioSequencia.Form1.resources
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\DesafioSequencia.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\bin\Debug\DesafioSequencia.exe
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\bin\Debug\DesafioSequencia.pdb
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\DesafioSequencia.exe
+C:\Magno\Impacta\CSharp\Curso_2008\DesafioSequencia\DesafioSequencia\obj\x86\Debug\DesafioSequencia.pdb

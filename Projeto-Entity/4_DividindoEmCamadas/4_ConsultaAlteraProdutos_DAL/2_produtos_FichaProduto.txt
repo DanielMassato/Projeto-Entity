@@ -1,0 +1,27 @@
+﻿ SqlCommand cmd = Connection.CreateCommand();
+            cmd.CommandText =  @"SELECT * FROM PRODUTOS 
+                                 WHERE ID_PRODUTO = " + idProduto;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable tb = new DataTable();
+            int linhas = da.Fill(tb);
+            decimal peso = 0;
+            if (tb.Rows[0]["PESO_LIQ"] != null)
+                peso = (decimal)tb.Rows[0]["PESO_LIQ"];
+
+            if (linhas == 0) return null;
+            else
+                return new CamposProduto
+                {
+                    ID_PRODUTO = (int)tb.Rows[0]["ID_PRODUTO"],
+                    COD_PRODUTO = tb.Rows[0]["COD_PRODUTO"].ToString(),
+                    DESCRICAO = tb.Rows[0]["DESCRICAO"].ToString(),
+                    COD_TIPO = (short)tb.Rows[0]["COD_TIPO"],
+                    COD_UNIDADE = (short)tb.Rows[0]["COD_UNIDADE"],
+                    PRECO_CUSTO = (decimal)tb.Rows[0]["PRECO_CUSTO"],
+                    PRECO_VENDA = (decimal)tb.Rows[0]["PRECO_VENDA"],
+                    QTD_MINIMA = (int)tb.Rows[0]["QTD_MINIMA"],
+                    QTD_REAL = (int)tb.Rows[0]["QTD_REAL"],
+                    CLAS_FISC = tb.Rows[0]["CLAS_FISC"].ToString(),
+                    IPI = (int)tb.Rows[0]["IPI"],
+                    PESO_LIQ = peso
+                }; 

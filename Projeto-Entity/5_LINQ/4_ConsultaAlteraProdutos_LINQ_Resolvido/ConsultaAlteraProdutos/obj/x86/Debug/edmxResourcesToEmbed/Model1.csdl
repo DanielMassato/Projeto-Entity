@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PEDIDOSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PRODUTOS">
+    <Key>
+      <PropertyRef Name="ID_PRODUTO" />
+    </Key>
+    <Property Name="ID_PRODUTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="COD_PRODUTO" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DESCRICAO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="COD_UNIDADE" Type="Int16" />
+    <Property Name="COD_TIPO" Type="Int16" />
+    <Property Name="PRECO_CUSTO" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="PRECO_VENDA" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="QTD_ESTIMADA" Type="Int32" />
+    <Property Name="QTD_REAL" Type="Int32" />
+    <Property Name="QTD_MINIMA" Type="Int32" />
+    <Property Name="CLAS_FISC" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IPI" Type="Int32" />
+    <Property Name="PESO_LIQ" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="TIPOPRODUTO" Relationship="Self.FK_PRODUTOS_TIPOPRODUTO" FromRole="PRODUTOS" ToRole="TIPOPRODUTO" />
+    <NavigationProperty Name="UNIDADES" Relationship="Self.FK_PRODUTOS_UNIDADES" FromRole="PRODUTOS" ToRole="UNIDADES" />
+  </EntityType>
+  <EntityType Name="TIPOPRODUTO">
+    <Key>
+      <PropertyRef Name="COD_TIPO" />
+    </Key>
+    <Property Name="COD_TIPO" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TIPO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUTOS" Relationship="Self.FK_PRODUTOS_TIPOPRODUTO" FromRole="TIPOPRODUTO" ToRole="PRODUTOS" />
+  </EntityType>
+  <EntityType Name="UNIDADES">
+    <Key>
+      <PropertyRef Name="COD_UNIDADE" />
+    </Key>
+    <Property Name="COD_UNIDADE" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UNIDADE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUTOS" Relationship="Self.FK_PRODUTOS_UNIDADES" FromRole="UNIDADES" ToRole="PRODUTOS" />
+  </EntityType>
+  <Association Name="FK_PRODUTOS_TIPOPRODUTO">
+    <End Role="TIPOPRODUTO" Type="Self.TIPOPRODUTO" Multiplicity="0..1" />
+    <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPOPRODUTO">
+        <PropertyRef Name="COD_TIPO" />
+      </Principal>
+      <Dependent Role="PRODUTOS">
+        <PropertyRef Name="COD_TIPO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUTOS_UNIDADES">
+    <End Role="UNIDADES" Type="Self.UNIDADES" Multiplicity="0..1" />
+    <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UNIDADES">
+        <PropertyRef Name="COD_UNIDADE" />
+      </Principal>
+      <Dependent Role="PRODUTOS">
+        <PropertyRef Name="COD_UNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PEDIDOSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PRODUTOS" EntityType="Self.PRODUTOS" />
+    <EntitySet Name="TIPOPRODUTO" EntityType="Self.TIPOPRODUTO" />
+    <EntitySet Name="UNIDADES" EntityType="Self.UNIDADES" />
+    <AssociationSet Name="FK_PRODUTOS_TIPOPRODUTO" Association="Self.FK_PRODUTOS_TIPOPRODUTO">
+      <End Role="TIPOPRODUTO" EntitySet="TIPOPRODUTO" />
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUTOS_UNIDADES" Association="Self.FK_PRODUTOS_UNIDADES">
+      <End Role="UNIDADES" EntitySet="UNIDADES" />
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+    </AssociationSet>
+    <EntitySet Name="USUARIOS" EntityType="PEDIDOSModel.USUARIOS" />
+  </EntityContainer>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="USER_LOGIN" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="USER_PWS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NIVEL" Type="Int16" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,5 @@
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibFWGeral\bin\Debug\LibFWGeral.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibFWGeral\bin\Debug\LibFWGeral.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibFWGeral\obj\Debug\LibFWGeral.csprojResolveAssemblyReference.cache
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibFWGeral\obj\Debug\LibFWGeral.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibFWGeral\obj\Debug\LibFWGeral.pdb

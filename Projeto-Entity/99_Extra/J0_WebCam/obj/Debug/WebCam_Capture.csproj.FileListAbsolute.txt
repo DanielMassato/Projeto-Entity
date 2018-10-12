@@ -1,0 +1,14 @@
+C:\Magno\Impacta\CSharp\2010\WebCam\bin\Debug\WebCam_Capture.dll
+C:\Magno\Impacta\CSharp\2010\WebCam\bin\Debug\WebCam_Capture.pdb
+C:\Magno\Impacta\CSharp\2010\WebCam\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\WebCam\obj\Debug\WebCam_Capture.WebCamCapture.resources
+C:\Magno\Impacta\CSharp\2010\WebCam\obj\Debug\WebCam_Capture.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\2010\WebCam\obj\Debug\WebCam_Capture.dll
+C:\Magno\Impacta\CSharp\2010\WebCam\obj\Debug\WebCam_Capture.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\bin\Debug\WebCam_Capture.dll
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\bin\Debug\WebCam_Capture.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\obj\Debug\WebCam_Capture.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\obj\Debug\WebCam_Capture.WebCamCapture.resources
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\obj\Debug\WebCam_Capture.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\obj\Debug\WebCam_Capture.dll
+C:\Magno\Impacta\CSharp\Z_Extra\J0_WebCam\obj\Debug\WebCam_Capture.pdb

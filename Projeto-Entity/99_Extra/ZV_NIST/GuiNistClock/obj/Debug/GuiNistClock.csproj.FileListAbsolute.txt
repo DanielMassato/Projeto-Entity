@@ -1,0 +1,11 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\bin\Debug\GuiNistClock.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\bin\Debug\GuiNistClock.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\bin\Debug\Nist.dll
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\bin\Debug\Nist.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\GuiNistClock.ClockForm.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\GuiNistClock.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\GuiNistClock.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\GuiNistClock\obj\Debug\GuiNistClock.pdb

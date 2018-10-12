@@ -1,0 +1,9 @@
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\bin\Debug\TreeViewComBD.exe
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\bin\Debug\TreeViewComBD.pdb
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\TreeViewComBD.Form1.resources
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\TreeViewComBD.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\TreeViewComBD.exe
+C:\Magno\Impacta\CSharp\2010\TreeViewComBD\TreeViewComBD\obj\x86\Debug\TreeViewComBD.pdb

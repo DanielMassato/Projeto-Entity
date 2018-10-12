@@ -1,0 +1,14 @@
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\bin\Debug\ParametrosParaForm.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\bin\Debug\ParametrosParaForm.pdb
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.FormPrincipal.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.exe
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.pdb
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.Form2.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.Form3.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.Form4.resources
+C:\Magno\Impacta\CSharp\2010\Z_Extra\J8_ParametrosParaForm\ParametrosParaForm\obj\x86\Debug\ParametrosParaForm.Form5.resources

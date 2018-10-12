@@ -1,0 +1,17 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\bin\Debug\ProcessaArquivos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\bin\Debug\ProcessaArquivos.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.Form1.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.exe
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\bin\Debug\ProcessaArquivos.exe
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\bin\Debug\ProcessaArquivos.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.Form1.resources
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\Z_Extra\H5_ProcessaArquivos\ProcessaArquivos\obj\x86\Debug\ProcessaArquivos.csproj.GenerateResource.Cache

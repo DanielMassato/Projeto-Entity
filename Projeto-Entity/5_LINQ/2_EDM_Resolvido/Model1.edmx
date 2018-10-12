@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PEDIDOSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CLIENTES">
+          <Key>
+            <PropertyRef Name="CODCLI" />
+          </Key>
+          <Property Name="CODCLI" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="50" />
+          <Property Name="FANTASIA" Type="varchar" MaxLength="20" />
+          <Property Name="ENDERECO" Type="varchar" MaxLength="60" />
+          <Property Name="BAIRRO" Type="varchar" MaxLength="20" />
+          <Property Name="CIDADE" Type="varchar" MaxLength="20" />
+          <Property Name="ESTADO" Type="varchar" MaxLength="2" />
+          <Property Name="CEP" Type="varchar" MaxLength="8" />
+          <Property Name="END_COB" Type="varchar" MaxLength="60" />
+          <Property Name="BAI_COB" Type="varchar" MaxLength="20" />
+          <Property Name="CID_COB" Type="varchar" MaxLength="20" />
+          <Property Name="EST_COB" Type="varchar" MaxLength="2" />
+          <Property Name="CEP_COB" Type="varchar" MaxLength="8" />
+          <Property Name="CNPJ" Type="varchar" MaxLength="18" />
+          <Property Name="INSCRICAO" Type="varchar" MaxLength="19" />
+          <Property Name="FONE1" Type="varchar" MaxLength="15" />
+          <Property Name="FAX" Type="varchar" MaxLength="15" />
+          <Property Name="E_MAIL" Type="varchar" MaxLength="35" />
+          <Property Name="DATA_CAD" Type="datetime" />
+          <Property Name="ICMS" Type="float" />
+          <Property Name="REVENDA_CONSUMIDOR" Type="char" MaxLength="1" />
+          <Property Name="COD_ESTADO" Type="int" />
+        </EntityType>
+        <EntityType Name="PEDIDOS">
+          <Key>
+            <PropertyRef Name="NUM_PEDIDO" />
+          </Key>
+          <Property Name="NUM_PEDIDO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CODCLI" Type="int" />
+          <Property Name="CODVEN" Type="smallint" />
+          <Property Name="DATA_EMISSAO" Type="datetime" />
+          <Property Name="VLR_TOTAL" Type="numeric" Precision="18" Scale="2" />
+          <Property Name="SITUACAO" Type="varchar" MaxLength="1" />
+          <Property Name="OBSERVACOES" Type="text" />
+        </EntityType>
+        <EntityType Name="VENDEDORES">
+          <Key>
+            <PropertyRef Name="CODVEN" />
+          </Key>
+          <Property Name="CODVEN" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="50" />
+          <Property Name="FANTASIA" Type="varchar" MaxLength="20" />
+          <Property Name="ENDERECO" Type="varchar" MaxLength="60" />
+          <Property Name="BAIRRO" Type="varchar" MaxLength="20" />
+          <Property Name="CIDADE" Type="varchar" MaxLength="20" />
+          <Property Name="ESTADO" Type="varchar" MaxLength="2" />
+          <Property Name="CEP" Type="varchar" MaxLength="8" />
+          <Property Name="CPF" Type="varchar" MaxLength="18" />
+          <Property Name="RG" Type="varchar" MaxLength="15" />
+          <Property Name="FONE" Type="varchar" MaxLength="15" />
+          <Property Name="FAX" Type="varchar" MaxLength="15" />
+          <Property Name="E_MAIL" Type="varchar" MaxLength="35" />
+          <Property Name="DATA_CAD" Type="datetime" />
+          <Property Name="DATA_NASC" Type="datetime" />
+          <Property Name="PORC_COMISSAO" Type="decimal" Precision="5" Scale="2" />
+        </EntityType>
+        <Association Name="FK_PEDIDOS_CLIENTES">
+          <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="0..1" />
+          <End Role="PEDIDOS" Type="Self.PEDIDOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTES">
+              <PropertyRef Name="CODCLI" />
+            </Principal>
+            <Dependent Role="PEDIDOS">
+              <PropertyRef Name="CODCLI" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PEDIDOS_VENDEDORES">
+          <End Role="VENDEDORES" Type="Self.VENDEDORES" Multiplicity="0..1" />
+          <End Role="PEDIDOS" Type="Self.PEDIDOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VENDEDORES">
+              <PropertyRef Name="CODVEN" />
+            </Principal>
+            <Dependent Role="PEDIDOS">
+              <PropertyRef Name="CODVEN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PEDIDOSModelStoreContainer">
+          <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PEDIDOS" EntityType="Self.PEDIDOS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VENDEDORES" EntityType="Self.VENDEDORES" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_PEDIDOS_CLIENTES" Association="Self.FK_PEDIDOS_CLIENTES">
+            <End Role="CLIENTES" EntitySet="CLIENTES" />
+            <End Role="PEDIDOS" EntitySet="PEDIDOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PEDIDOS_VENDEDORES" Association="Self.FK_PEDIDOS_VENDEDORES">
+            <End Role="VENDEDORES" EntitySet="VENDEDORES" />
+            <End Role="PEDIDOS" EntitySet="PEDIDOS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PEDIDOSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CLIENTES">
+          <Key>
+            <PropertyRef Name="CODCLI" />
+          </Key>
+          <Property Name="CODCLI" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FANTASIA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="BAIRRO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CIDADE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ESTADO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="CEP" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="END_COB" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="BAI_COB" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CID_COB" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EST_COB" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="CEP_COB" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="CNPJ" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+          <Property Name="INSCRICAO" Type="String" MaxLength="19" FixedLength="false" Unicode="false" />
+          <Property Name="FONE1" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="FAX" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="E_MAIL" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="DATA_CAD" Type="DateTime" Precision="3" />
+          <Property Name="ICMS" Type="Double" />
+          <Property Name="REVENDA_CONSUMIDOR" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="COD_ESTADO" Type="Int32" />
+          <NavigationProperty Name="PEDIDOS" Relationship="Self.FK_PEDIDOS_CLIENTES" FromRole="CLIENTES" ToRole="PEDIDOS" />
+        </EntityType>
+        <EntityType Name="PEDIDOS">
+          <Key>
+            <PropertyRef Name="NUM_PEDIDO" />
+          </Key>
+          <Property Name="NUM_PEDIDO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CODCLI" Type="Int32" />
+          <Property Name="CODVEN" Type="Int16" />
+          <Property Name="DATA_EMISSAO" Type="DateTime" Precision="3" />
+          <Property Name="VLR_TOTAL" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SITUACAO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="OBSERVACOES" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CLIENTES" Relationship="Self.FK_PEDIDOS_CLIENTES" FromRole="PEDIDOS" ToRole="CLIENTES" />
+          <NavigationProperty Name="VENDEDORES" Relationship="Self.FK_PEDIDOS_VENDEDORES" FromRole="PEDIDOS" ToRole="VENDEDORES" />
+        </EntityType>
+        <EntityType Name="VENDEDORES">
+          <Key>
+            <PropertyRef Name="CODVEN" />
+          </Key>
+          <Property Name="CODVEN" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FANTASIA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="BAIRRO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CIDADE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ESTADO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="CEP" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="CPF" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+          <Property Name="RG" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="FONE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="FAX" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="E_MAIL" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="DATA_CAD" Type="DateTime" Precision="3" />
+          <Property Name="DATA_NASC" Type="DateTime" Precision="3" />
+          <Property Name="PORC_COMISSAO" Type="Decimal" Precision="5" Scale="2" />
+          <NavigationProperty Name="PEDIDOS" Relationship="Self.FK_PEDIDOS_VENDEDORES" FromRole="VENDEDORES" ToRole="PEDIDOS" />
+        </EntityType>
+        <Association Name="FK_PEDIDOS_CLIENTES">
+          <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="0..1" />
+          <End Role="PEDIDOS" Type="Self.PEDIDOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTES">
+              <PropertyRef Name="CODCLI" />
+            </Principal>
+            <Dependent Role="PEDIDOS">
+              <PropertyRef Name="CODCLI" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PEDIDOS_VENDEDORES">
+          <End Role="VENDEDORES" Type="Self.VENDEDORES" Multiplicity="0..1" />
+          <End Role="PEDIDOS" Type="Self.PEDIDOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VENDEDORES">
+              <PropertyRef Name="CODVEN" />
+            </Principal>
+            <Dependent Role="PEDIDOS">
+              <PropertyRef Name="CODVEN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PEDIDOSEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" />
+          <EntitySet Name="PEDIDOS" EntityType="Self.PEDIDOS" />
+          <EntitySet Name="VENDEDORES" EntityType="Self.VENDEDORES" />
+          <AssociationSet Name="FK_PEDIDOS_CLIENTES" Association="Self.FK_PEDIDOS_CLIENTES">
+            <End Role="CLIENTES" EntitySet="CLIENTES" />
+            <End Role="PEDIDOS" EntitySet="PEDIDOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PEDIDOS_VENDEDORES" Association="Self.FK_PEDIDOS_VENDEDORES">
+            <End Role="VENDEDORES" EntitySet="VENDEDORES" />
+            <End Role="PEDIDOS" EntitySet="PEDIDOS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PEDIDOSModelStoreContainer" CdmEntityContainer="PEDIDOSEntities">
+          <EntitySetMapping Name="CLIENTES">
+            <EntityTypeMapping TypeName="PEDIDOSModel.CLIENTES">
+              <MappingFragment StoreEntitySet="CLIENTES">
+                <ScalarProperty Name="CODCLI" ColumnName="CODCLI" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="FANTASIA" ColumnName="FANTASIA" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="END_COB" ColumnName="END_COB" />
+                <ScalarProperty Name="BAI_COB" ColumnName="BAI_COB" />
+                <ScalarProperty Name="CID_COB" ColumnName="CID_COB" />
+                <ScalarProperty Name="EST_COB" ColumnName="EST_COB" />
+                <ScalarProperty Name="CEP_COB" ColumnName="CEP_COB" />
+                <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+                <ScalarProperty Name="INSCRICAO" ColumnName="INSCRICAO" />
+                <ScalarProperty Name="FONE1" ColumnName="FONE1" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="E_MAIL" ColumnName="E_MAIL" />
+                <ScalarProperty Name="DATA_CAD" ColumnName="DATA_CAD" />
+                <ScalarProperty Name="ICMS" ColumnName="ICMS" />
+                <ScalarProperty Name="REVENDA_CONSUMIDOR" ColumnName="REVENDA_CONSUMIDOR" />
+                <ScalarProperty Name="COD_ESTADO" ColumnName="COD_ESTADO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PEDIDOS">
+            <EntityTypeMapping TypeName="PEDIDOSModel.PEDIDOS">
+              <MappingFragment StoreEntitySet="PEDIDOS">
+                <ScalarProperty Name="NUM_PEDIDO" ColumnName="NUM_PEDIDO" />
+                <ScalarProperty Name="CODCLI" ColumnName="CODCLI" />
+                <ScalarProperty Name="CODVEN" ColumnName="CODVEN" />
+                <ScalarProperty Name="DATA_EMISSAO" ColumnName="DATA_EMISSAO" />
+                <ScalarProperty Name="VLR_TOTAL" ColumnName="VLR_TOTAL" />
+                <ScalarProperty Name="SITUACAO" ColumnName="SITUACAO" />
+                <ScalarProperty Name="OBSERVACOES" ColumnName="OBSERVACOES" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VENDEDORES">
+            <EntityTypeMapping TypeName="PEDIDOSModel.VENDEDORES">
+              <MappingFragment StoreEntitySet="VENDEDORES">
+                <ScalarProperty Name="CODVEN" ColumnName="CODVEN" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="FANTASIA" ColumnName="FANTASIA" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="CPF" ColumnName="CPF" />
+                <ScalarProperty Name="RG" ColumnName="RG" />
+                <ScalarProperty Name="FONE" ColumnName="FONE" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="E_MAIL" ColumnName="E_MAIL" />
+                <ScalarProperty Name="DATA_CAD" ColumnName="DATA_CAD" />
+                <ScalarProperty Name="DATA_NASC" ColumnName="DATA_NASC" />
+                <ScalarProperty Name="PORC_COMISSAO" ColumnName="PORC_COMISSAO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

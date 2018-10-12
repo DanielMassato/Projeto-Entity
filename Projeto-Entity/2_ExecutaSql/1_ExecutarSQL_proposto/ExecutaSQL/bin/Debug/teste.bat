@@ -1,0 +1,1 @@
+COPY LibDialogs.dll testando.abc

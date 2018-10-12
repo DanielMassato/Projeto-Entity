@@ -1,0 +1,78 @@
+﻿ // se for para XML
+            if (rbXMLAtributos.Checked || rbXMLElementos.Checked)
+            {
+                dlsSalvar.FileName = "Produtos.xml";
+                dlsSalvar.DefaultExt = "xml";
+                dlsSalvar.Filter = "Arq. xml|*.xml|Todos|*.*";
+
+                if (dlsSalvar.ShowDialog() == DialogResult.Cancel) return;
+
+                // criar o documento XML com o seu elemento raiz <Produtos>
+                XElement docXml = new XElement("Produtos");
+                // percorrer as linhas do DataTable
+                for (int lin = 0; lin < tbProdutos.Rows.Count; lin++)
+                {
+                    // criar o elemento para cada produto
+                    XElement prod = new XElement("Produto");
+                    // percorrer as colunas desta linha do DataTable
+                    for (int col = 0; col < tbProdutos.Columns.Count; col++)
+                    {
+                        // se for XML com atributos
+                        if (rbXMLAtributos.Checked)
+                        {
+                            prod.SetAttributeValue(
+                                // nome do atributo (nome do campo)
+                                tbProdutos.Columns[col].ColumnName,
+                                // valor do atributo (conteúdo do campo)
+                                tbProdutos.Rows[lin][col]
+                                );
+                        }
+                        else // XML com elementos
+                        {
+                            prod.Add(new XElement(
+                                // nome do elemento (nome do campo)
+                                tbProdutos.Columns[col].ColumnName,
+                                // valor do elemento (conteúdo do campo)
+                                tbProdutos.Rows[lin][col]
+                                ));
+                        }
+
+                    } // for col
+                    // adicionar esta linha no documento Xml
+                    docXml.Add(prod);
+
+                } // for lin
+                // salvar o documento Xml
+                docXml.Save(dlsSalvar.FileName);
+            }
+            else // é CSV
+            {
+                dlsSalvar.FileName = "Produtos.csv";
+                dlsSalvar.DefaultExt = "csv";
+                dlsSalvar.Filter = "Arq. csv|*.csv|Todos|*.*";
+
+                if (dlsSalvar.ShowDialog() == DialogResult.Cancel) return;
+
+                // objeto para salvar arquivo texto (System.IO)
+                StreamWriter sw = new StreamWriter(dlsSalvar.FileName, false, Encoding.Default);
+                // percorrer as linhas do DataTable
+                for (int lin = 0; lin < tbProdutos.Rows.Count; lin++)
+                {
+                    // variável para concatenar os campos
+                    string linha = "";
+                    // percorrer as colunas do DataTable
+                    for (int col = 0; col < tbProdutos.Columns.Count; col++)
+                    {
+                        linha += tbProdutos.Rows[lin][col];
+                        // se não for a última coluna concatenar um ponto-e-vírgula
+                        if (col < tbProdutos.Columns.Count - 1) linha += ";";
+                    } // cor col
+                    // gravar a linha no arquivo
+                    sw.WriteLine(linha);
+                } // for lin
+                // fechar o arquivo
+                sw.Close();
+            }
+
+            // abrir o arquivo salvo (System.Diagnostics)
+            Process.Start(dlsSalvar.FileName);

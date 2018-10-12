@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PEDIDOSModelStoreContainer" CdmEntityContainer="PEDIDOSEntities">
+    <EntitySetMapping Name="PRODUTOS">
+      <EntityTypeMapping TypeName="PEDIDOSModel.PRODUTOS">
+        <MappingFragment StoreEntitySet="PRODUTOS">
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="COD_PRODUTO" ColumnName="COD_PRODUTO" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="COD_UNIDADE" ColumnName="COD_UNIDADE" />
+          <ScalarProperty Name="COD_TIPO" ColumnName="COD_TIPO" />
+          <ScalarProperty Name="PRECO_CUSTO" ColumnName="PRECO_CUSTO" />
+          <ScalarProperty Name="PRECO_VENDA" ColumnName="PRECO_VENDA" />
+          <ScalarProperty Name="QTD_ESTIMADA" ColumnName="QTD_ESTIMADA" />
+          <ScalarProperty Name="QTD_REAL" ColumnName="QTD_REAL" />
+          <ScalarProperty Name="QTD_MINIMA" ColumnName="QTD_MINIMA" />
+          <ScalarProperty Name="CLAS_FISC" ColumnName="CLAS_FISC" />
+          <ScalarProperty Name="IPI" ColumnName="IPI" />
+          <ScalarProperty Name="PESO_LIQ" ColumnName="PESO_LIQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPOPRODUTO">
+      <EntityTypeMapping TypeName="PEDIDOSModel.TIPOPRODUTO">
+        <MappingFragment StoreEntitySet="TIPOPRODUTO">
+          <ScalarProperty Name="COD_TIPO" ColumnName="COD_TIPO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UNIDADES">
+      <EntityTypeMapping TypeName="PEDIDOSModel.UNIDADES">
+        <MappingFragment StoreEntitySet="UNIDADES">
+          <ScalarProperty Name="COD_UNIDADE" ColumnName="COD_UNIDADE" />
+          <ScalarProperty Name="UNIDADE" ColumnName="UNIDADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="PEDIDOSModel.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="NIVEL" ColumnName="NIVEL" />
+          <ScalarProperty Name="USER_PWS" ColumnName="USER_PWS" />
+          <ScalarProperty Name="USER_LOGIN" ColumnName="USER_LOGIN" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="ID_USER" ColumnName="ID_USER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

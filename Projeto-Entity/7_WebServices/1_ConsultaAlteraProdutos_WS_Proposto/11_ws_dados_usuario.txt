@@ -1,0 +1,35 @@
+try
+        {
+            // consultar o produto que será excluído
+            var prod = ped.PRODUTOS.Where(p => p.ID_PRODUTO == idProduto).First();
+            // marcar este produto com EXCLUIDO
+            ped.PRODUTOS.Remove(prod);
+            // aplicar as alterações no banco
+            ped.SaveChanges();
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExcption(ex);
+            erro = ex.Message;
+        }// ler da tabela USUARIOS a linha que tenha USER_LOGIN igual ao digitado na tela
+        // e USER_PWS igual a digitada na tela
+        var usr = from u in ped.USUARIOS
+                  where u.USER_LOGIN == login && u.USER_PWS == senha
+                  select u;
+        
+        if (usr.Count() > 0)
+        {
+            return new USUARIOS
+            {
+                ID_USER = usr.First().ID_USER,
+                NIVEL = usr.First().NIVEL,
+                NOME = usr.First().NOME,
+                USER_LOGIN = usr.First().USER_LOGIN,
+                USER_PWS = usr.First().USER_PWS
+            };
+        }
+        
+        else
+        {
+            return null;
+        }

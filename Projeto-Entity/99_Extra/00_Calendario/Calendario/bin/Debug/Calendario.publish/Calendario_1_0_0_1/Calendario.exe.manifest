@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Calendario.exe" version="1.0.0.1" publicKeyToken="c937242b55428fa4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="agenda.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calendario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calendario.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calendario.exe" size="57344">
+      <assemblyIdentity name="Calendario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pQxFb/3nA+Kjb8M/MkZusEtxc08=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Curso.Classes.dll" size="24576">
+      <assemblyIdentity name="Curso.Classes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AhtlViRXz19xLEWBHKBxf9uO0ek=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Curso.Controles.dll" size="24576">
+      <assemblyIdentity name="Curso.Controles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yIZILkyL6uO/7s2zUH2u80k/n5A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="agenda.ico" size="5350">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T8lD2RFBZvZ4e2Q5vD2WL9PTX4E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SOMA5\CARLOS MAGNO SOUZA" issuerKeyHash="9a7494edee37cf3e1539cbde2acb7da9eaa53434" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Et5SEO41xZT/CeJRk3B/Cz6C2ZQ=</DigestValue></Reference></SignedInfo><SignatureValue>q1DE6iorNKMzpNUCJ1RUukkrOxzK8wY+2OW8j0qgmOZekHyFOJnOXZetQK540PFon+kYKtI8K5lzJAhsqiGMgIqOqv+MJN5MWAsOor6J5FEpLoH0cq61/IOcSv/nqcsrLv62+Ar/igh8/C5dvGNgOo8itkr4SpSdmD79tTvatic=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>seixFf0BBxiP5wy++nqyFqBu7Iymqt5d7LyVJq04d+roX9LiO4vDyRnaUHnZW/N+x2Mma762dDJNfCcHT2XG+MJIDerwJQvncFSSQ3hEgV8vI/kjaDfgTUMcHJ2GG4rGFVgpPr1CZBdOjB0fBH/28NbGvTlUlaVkKS9PekBVCv8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="94d9823e0b7f709351e209ff94c535ee1052de12" Description="" Url=""><as:assemblyIdentity name="Calendario.exe" version="1.0.0.1" publicKeyToken="c937242b55428fa4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SOMA5\CARLOS MAGNO SOUZA</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>71DGRpcZDKTRM2HmWz9csYeqgBM=</DigestValue></Reference></SignedInfo><SignatureValue>AcrsLKTbrl2QJbAyz3AaaI0WlpZlky1am6g0UlQRXEKzou/7yxbWARiMeB95FkSeh1LYWDgJrjVcaVt5R2yeTMSLfsRSOZbMhBYfOsrunLsYpnmtP2DhbTILk52IlXg4BUg2xG9rYpBDa8tc7C0r4Aq4VjjnpujYmZIGFL3RHeo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>seixFf0BBxiP5wy++nqyFqBu7Iymqt5d7LyVJq04d+roX9LiO4vDyRnaUHnZW/N+x2Mma762dDJNfCcHT2XG+MJIDerwJQvncFSSQ3hEgV8vI/kjaDfgTUMcHJ2GG4rGFVgpPr1CZBdOjB0fBH/28NbGvTlUlaVkKS9PekBVCv8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAV6gAwIBAgIQVafSNL0MO6VAYkpga+1OyDAJBgUrDgMCHQUAMDsxOTA3BgNVBAMeMABTAE8ATQBBADUAXABDAEEAUgBMAE8AUwAgAE0AQQBHAE4ATwAgAFMATwBVAFoAQTAeFw0wODA3MjgxNTI5MjBaFw0wOTA3MjgyMTI5MjBaMDsxOTA3BgNVBAMeMABTAE8ATQBBADUAXABDAEEAUgBMAE8AUwAgAE0AQQBHAE4ATwAgAFMATwBVAFoAQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAseixFf0BBxiP5wy++nqyFqBu7Iymqt5d7LyVJq04d+roX9LiO4vDyRnaUHnZW/N+x2Mma762dDJNfCcHT2XG+MJIDerwJQvncFSSQ3hEgV8vI/kjaDfgTUMcHJ2GG4rGFVgpPr1CZBdOjB0fBH/28NbGvTlUlaVkKS9PekBVCv8CAwEAATAJBgUrDgMCHQUAA4GBAGCymH8GAAoWr2j7xZ/KRnPY23VUYBfv0MoVQH9EW9q8JBXKZ5Uc78gTj9FORRIJniNwsUuCVbF/iMVa2Ak31BdyPjmVwgSmEsD7Od12yLAhPxLhryYTc34LUz+RfLofinim8beuSTrvSqu2Afo4NeBoLhI9ZDnHmece5YNNtuAg</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

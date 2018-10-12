@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B51D9CF-A78F-4929-960C-1C61DAF360A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EditorMDI</RootNamespace>
+    <AssemblyName>EditorMDI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibBasico">
+      <HintPath>..\..\111021\CSharp_Mod_I\X_Extra\10_RTFEditor\bin\Debug\LibBasico.dll</HintPath>
+    </Reference>
+    <Reference Include="LibComponentes">
+      <HintPath>..\..\111021\CSharp_Mod_I\X_Extra\10_RTFEditor\bin\Debug\LibComponentes.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditor.Designer.cs">
+      <DependentUpon>FormEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEditor.resx">
+      <DependentUpon>FormEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abrir.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ALIGNCTR.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ALIGNLFT.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ALIGNRGT.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BULLET1.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BULLET2.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CorLetra.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONTNAME.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONTSTYL.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gravar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INDENTDE.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INDENTIN.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Italico.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Negrito.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEW.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRINT.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sair.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sublinhado.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\folders16.bmp" />
+    <Content Include="Resources\folder_closed16.bmp" />
+    <None Include="Resources\PRINTPRE.BMP" />
+    <Content Include="Resources\WINCASCA.BMP" />
+    <Content Include="Resources\WINTHORZ.BMP" />
+    <Content Include="Resources\WINTVERT.BMP" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

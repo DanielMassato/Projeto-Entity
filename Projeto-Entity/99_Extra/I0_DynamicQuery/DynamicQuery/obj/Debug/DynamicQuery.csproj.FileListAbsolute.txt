@@ -1,0 +1,7 @@
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\bin\Debug\Dynamic.exe
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\bin\Debug\Dynamic.pdb
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\bin\Debug\NorthwindMapping.dll
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\bin\Debug\NorthwindMapping.pdb
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\obj\Debug\Dynamic.exe
+C:\Users\magno\Downloads\LinqSamples\DynamicQuery\DynamicQuery\obj\Debug\Dynamic.pdb

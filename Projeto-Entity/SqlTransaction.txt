@@ -1,0 +1,60 @@
+﻿           SqlCommand cmd1 = conSql.CreateCommand();
+            SqlCommand cmd2 = conSql.CreateCommand();
+            SqlCommand cmd3 = conSql.CreateCommand();
+
+            // copia o cabeçalho do pedido
+            cmd1.CommandText = @"INSERT INTO PEDIDOS (CODCLI, CODVEN, DATA_EMISSAO, VLR_TOTAL, SITUACAO, OBSERVACOES)
+	                     SELECT CODCLI, CODVEN, GETDATE(), VLR_TOTAL, 'P', OBSERVACOES
+	                     FROM PEDIDOS
+	                     WHERE NUM_PEDIDO = @NUM_PEDIDO_FONTE";
+
+            // descobrir o NUM_PEDIDO gerado para o novo pedido
+            cmd2.CommandText = "SELECT @@IDENTITY";
+
+            // copia os itens do pedido
+            cmd3.CommandText = @"INSERT INTO ITENSPEDIDO (NUM_PEDIDO, NUM_ITEM, ID_PRODUTO, COD_PRODUTO, CODCOR, QUANTIDADE, PR_UNITARIO, DATA_ENTREGA, SITUACAO, DESCONTO)
+	                     SELECT @NUM_PEDIDO_NOVO, NUM_ITEM, ID_PRODUTO, COD_PRODUTO, CODCOR, QUANTIDADE, PR_UNITARIO, GETDATE()+10, SITUACAO, DESCONTO 
+	                     FROM ITENSPEDIDO
+	                     WHERE NUM_PEDIDO = @NUM_PEDIDO_FONTE;";
+
+            SqlTransaction tran = null;
+            try
+            {
+                conSql.Open();
+                // abrir processo de transação
+                tran = conSql.BeginTransaction();
+                // associar os Commands à transação
+                cmd1.Transaction = tran;
+                cmd2.Transaction = tran;
+                cmd3.Transaction = tran;
+               
+                // executar a cópia do cabeçalho do pedido
+                cmd1.Parameters.AddWithValue("@NUM_PEDIDO_FONTE",
+                                              updNumPed.Value);
+                cmd1.ExecuteNonQuery();
+                // descobrir o NUM_PEDIDO gerado
+                // ExecuteScalar() devolve o conteúdo da primeira
+                // coluna da primeira linha do SELECT
+                int novoPed = Convert.ToInt32(cmd2.ExecuteScalar());
+                // copiar os itens do pedido
+                cmd3.Parameters.AddWithValue("@NUM_PEDIDO_FONTE",
+                                              updNumPed.Value);
+                cmd3.Parameters.AddWithValue("@NUM_PEDIDO_NOVO",
+                                              novoPed);
+                cmd3.ExecuteNonQuery();
+                // finalizar transação gravando
+                tran.Commit();
+                // exibir resultado na tela
+                lblResposta.Text = "Gerado pedido número " + novoPed;
+            }
+            catch(Exception ex)
+            {
+                // finalizar transação descartando alterações
+                tran.Rollback();
+                // exibir resultado na tela
+                lblResposta.Text = "ERRO: " + ex.Message;
+            }
+            finally
+            {
+                conSql.Close();
+            }

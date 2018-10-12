@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WebCam_Capture">
+</Property><Property Name="Solution File" Value="C:\Magno\Impacta\CSharp\2010\WebCam\WebCam_Capture.sln">
+</Property><Property Name="Date" Value="quarta-feira, 10 de agosto de 2011">
+</Property><Property Name="Time" Value="17:10">
+</Property></Properties><Event ErrorLevel="0" Project="WebCam_Capture" Source="WebCam_Capture.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WebCam_Capture" Source="WebCam_Capture.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Webcam_Test" Source="Webcam_Test\Webcam_Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Webcam_Test" Source="Webcam_Test\Webcam_Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WebCam_Capture.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WebCam_Capture.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WebCam_Capture" Source="WebCam_Capture.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Webcam_Test" Source="Webcam_Test\Webcam_Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

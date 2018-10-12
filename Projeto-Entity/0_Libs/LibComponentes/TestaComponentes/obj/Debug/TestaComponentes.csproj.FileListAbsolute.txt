@@ -1,0 +1,11 @@
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\bin\Debug\TestaComponentes.exe.config
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\bin\Debug\TestaComponentes.exe
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\bin\Debug\TestaComponentes.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\bin\Debug\LibComponentes.dll
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\bin\Debug\LibComponentes.pdb
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\obj\Debug\TestaComponentes.csprojResolveAssemblyReference.cache
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\obj\Debug\TestaComponentes.Form1.resources
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\obj\Debug\TestaComponentes.Properties.Resources.resources
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\obj\Debug\TestaComponentes.csproj.GenerateResource.Cache
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\obj\Debug\TestaComponentes.exe
+C:\CSuarp_AD\CSharp_AD\0_Libs\LibComponentes\TestaComponentes\obj\Debug\TestaComponentes.pdb

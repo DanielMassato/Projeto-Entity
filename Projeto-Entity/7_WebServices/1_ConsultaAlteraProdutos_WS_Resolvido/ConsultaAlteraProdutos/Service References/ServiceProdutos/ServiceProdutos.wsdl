@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ListaProdutos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="descr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaProdutosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaProdutosResult" type="tns:ArrayOfProdutosConsulta" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfProdutosConsulta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ProdutosConsulta" nillable="true" type="tns:ProdutosConsulta" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ProdutosConsulta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID_PRODUTO" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="COD_PRODUTO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DESCRICAO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIPO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UNIDADE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRECO_VENDA" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="QTD_REAL" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="QTD_MINIMA" nillable="true" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ReajustaPrecosIDs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ids" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="porc" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReajustaPrecosIDsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReajustaPrecosIDsResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTipos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTiposResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaTiposResult" type="tns:ArrayOfTIPOPRODUTO" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTIPOPRODUTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TIPOPRODUTO" nillable="true" type="tns:TIPOPRODUTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TIPOPRODUTO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="COD_TIPO" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIPO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PRODUTOS" type="tns:PRODUTOS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PRODUTOS">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID_PRODUTO" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="COD_PRODUTO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DESCRICAO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="COD_UNIDADE" nillable="true" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="COD_TIPO" nillable="true" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRECO_CUSTO" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRECO_VENDA" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="QTD_ESTIMADA" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="QTD_REAL" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="QTD_MINIMA" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CLAS_FISC" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IPI" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PESO_LIQ" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIPOPRODUTO" type="tns:TIPOPRODUTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="UNIDADES" type="tns:UNIDADES" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="UNIDADES">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="COD_UNIDADE" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="UNIDADE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PRODUTOS" type="tns:PRODUTOS" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaUnidades">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaUnidadesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaUnidadesResult" type="tns:ArrayOfUNIDADES" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfUNIDADES">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="UNIDADES" nillable="true" type="tns:UNIDADES" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="FichaProduto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idProduto" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FichaProdutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FichaProdutoResult" type="tns:PRODUTOS" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AlterProduto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pr" type="tns:PRODUTOS" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AlterProdutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsereProduto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pr" type="tns:PRODUTOS" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsereProdutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsereProdutoResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExcluiProduto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idProduto" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExcluiProdutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DadosUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="senha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DadosUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DadosUsuarioResult" type="tns:USUARIOS" />
+            <s:element minOccurs="0" maxOccurs="1" name="erro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="USUARIOS">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID_USER" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NOME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="USER_LOGIN" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="USER_PWS" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NIVEL" nillable="true" type="s:short" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ListaProdutosSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaProdutos" />
+  </wsdl:message>
+  <wsdl:message name="ListaProdutosSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaProdutosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReajustaPrecosIDsSoapIn">
+    <wsdl:part name="parameters" element="tns:ReajustaPrecosIDs" />
+  </wsdl:message>
+  <wsdl:message name="ReajustaPrecosIDsSoapOut">
+    <wsdl:part name="parameters" element="tns:ReajustaPrecosIDsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaTiposSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaTipos" />
+  </wsdl:message>
+  <wsdl:message name="ListaTiposSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaTiposResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadesSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaUnidades" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadesSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaUnidadesResponse" />
+  </wsdl:message>
+  <wsdl:message name="FichaProdutoSoapIn">
+    <wsdl:part name="parameters" element="tns:FichaProduto" />
+  </wsdl:message>
+  <wsdl:message name="FichaProdutoSoapOut">
+    <wsdl:part name="parameters" element="tns:FichaProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlterProdutoSoapIn">
+    <wsdl:part name="parameters" element="tns:AlterProduto" />
+  </wsdl:message>
+  <wsdl:message name="AlterProdutoSoapOut">
+    <wsdl:part name="parameters" element="tns:AlterProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsereProdutoSoapIn">
+    <wsdl:part name="parameters" element="tns:InsereProduto" />
+  </wsdl:message>
+  <wsdl:message name="InsereProdutoSoapOut">
+    <wsdl:part name="parameters" element="tns:InsereProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExcluiProdutoSoapIn">
+    <wsdl:part name="parameters" element="tns:ExcluiProduto" />
+  </wsdl:message>
+  <wsdl:message name="ExcluiProdutoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExcluiProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DadosUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:DadosUsuario" />
+  </wsdl:message>
+  <wsdl:message name="DadosUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:DadosUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceProdutosSoap">
+    <wsdl:operation name="ListaProdutos">
+      <wsdl:input message="tns:ListaProdutosSoapIn" />
+      <wsdl:output message="tns:ListaProdutosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReajustaPrecosIDs">
+      <wsdl:input message="tns:ReajustaPrecosIDsSoapIn" />
+      <wsdl:output message="tns:ReajustaPrecosIDsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipos">
+      <wsdl:input message="tns:ListaTiposSoapIn" />
+      <wsdl:output message="tns:ListaTiposSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidades">
+      <wsdl:input message="tns:ListaUnidadesSoapIn" />
+      <wsdl:output message="tns:ListaUnidadesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FichaProduto">
+      <wsdl:input message="tns:FichaProdutoSoapIn" />
+      <wsdl:output message="tns:FichaProdutoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AlterProduto">
+      <wsdl:input message="tns:AlterProdutoSoapIn" />
+      <wsdl:output message="tns:AlterProdutoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsereProduto">
+      <wsdl:input message="tns:InsereProdutoSoapIn" />
+      <wsdl:output message="tns:InsereProdutoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiProduto">
+      <wsdl:input message="tns:ExcluiProdutoSoapIn" />
+      <wsdl:output message="tns:ExcluiProdutoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DadosUsuario">
+      <wsdl:input message="tns:DadosUsuarioSoapIn" />
+      <wsdl:output message="tns:DadosUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceProdutosSoap" type="tns:ServiceProdutosSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListaProdutos">
+      <soap:operation soapAction="http://tempuri.org/ListaProdutos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReajustaPrecosIDs">
+      <soap:operation soapAction="http://tempuri.org/ReajustaPrecosIDs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipos">
+      <soap:operation soapAction="http://tempuri.org/ListaTipos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidades">
+      <soap:operation soapAction="http://tempuri.org/ListaUnidades" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FichaProduto">
+      <soap:operation soapAction="http://tempuri.org/FichaProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterProduto">
+      <soap:operation soapAction="http://tempuri.org/AlterProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsereProduto">
+      <soap:operation soapAction="http://tempuri.org/InsereProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiProduto">
+      <soap:operation soapAction="http://tempuri.org/ExcluiProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DadosUsuario">
+      <soap:operation soapAction="http://tempuri.org/DadosUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceProdutosSoap12" type="tns:ServiceProdutosSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListaProdutos">
+      <soap12:operation soapAction="http://tempuri.org/ListaProdutos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReajustaPrecosIDs">
+      <soap12:operation soapAction="http://tempuri.org/ReajustaPrecosIDs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipos">
+      <soap12:operation soapAction="http://tempuri.org/ListaTipos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidades">
+      <soap12:operation soapAction="http://tempuri.org/ListaUnidades" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FichaProduto">
+      <soap12:operation soapAction="http://tempuri.org/FichaProduto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterProduto">
+      <soap12:operation soapAction="http://tempuri.org/AlterProduto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsereProduto">
+      <soap12:operation soapAction="http://tempuri.org/InsereProduto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiProduto">
+      <soap12:operation soapAction="http://tempuri.org/ExcluiProduto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DadosUsuario">
+      <soap12:operation soapAction="http://tempuri.org/DadosUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceProdutos">
+    <wsdl:port name="ServiceProdutosSoap" binding="tns:ServiceProdutosSoap">
+      <soap:address location="http://localhost:3246/ServiceProdutos.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceProdutosSoap12" binding="tns:ServiceProdutosSoap12">
+      <soap12:address location="http://localhost:3246/ServiceProdutos.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

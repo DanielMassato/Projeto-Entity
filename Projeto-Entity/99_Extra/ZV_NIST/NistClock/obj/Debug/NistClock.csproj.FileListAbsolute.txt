@@ -1,0 +1,7 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\bin\Debug\NistClock.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\bin\Debug\NistClock.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\bin\Debug\Nist.dll
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\bin\Debug\Nist.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\obj\Debug\NistClock.exe
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\NistClock\obj\Debug\NistClock.pdb

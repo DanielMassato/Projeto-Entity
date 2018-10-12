@@ -1,0 +1,9 @@
+public int ID_PRODUTO { get; set; }
+    public string COD_PRODUTO { get; set; }
+    public string DESCRICAO { get; set; }
+
+    public string TIPO { get; set; }
+    public string UNIDADE { get; set; }
+    public Nullable<decimal> PRECO_VENDA { get; set; }
+    public Nullable<int> QTD_REAL { get; set; }
+    public Nullable<int> QTD_MINIMA { get; set; }

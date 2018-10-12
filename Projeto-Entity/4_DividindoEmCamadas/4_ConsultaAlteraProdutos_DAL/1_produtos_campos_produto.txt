@@ -1,0 +1,122 @@
+﻿public class CamposProduto
+    {
+        private int _ID_PRODUTO;
+
+        public int ID_PRODUTO
+        {
+            get { return _ID_PRODUTO; }
+            set { _ID_PRODUTO = value; }
+        }
+
+        private string _COD_PRODUTO;
+
+        public string COD_PRODUTO
+        {
+            get { return _COD_PRODUTO; }
+            set
+            {
+                if (value != "") _COD_PRODUTO = value;
+                else throw new Exception("Código não pode ficar vazio");
+            }
+        }
+
+        private string _DESCRICAO;
+
+        public string DESCRICAO
+        {
+            get { return _DESCRICAO; }
+            set
+            {
+                if (value != "") _DESCRICAO = value;
+                else throw new Exception("Descrição não pode ficar vazia");
+            }
+        }
+
+        private short _COD_UNIDADE;
+
+        public short COD_UNIDADE
+        {
+            get { return _COD_UNIDADE; }
+            set
+            {
+                if (value >= 0) _COD_UNIDADE = value;
+                else throw new Exception("Código de unidade não pode ser negativo");
+            }
+        }
+
+        private short _COD_TIPO;
+
+        public short COD_TIPO
+        {
+            get { return _COD_TIPO; }
+            set
+            {
+                if (value >= 0) _COD_TIPO = value;
+                else throw new Exception("Código do tipo não pode ser negativo");
+            }
+        }
+
+        private decimal _PRECO_CUSTO;
+
+        public decimal PRECO_CUSTO
+        {
+            get { return _PRECO_CUSTO; }
+            set
+            {
+                if (value >= 0) _PRECO_CUSTO = value;
+                else throw new Exception("Preço não pode ser negativo");
+            }
+        }
+
+        private decimal _PRECO_VENDA;
+
+        public decimal PRECO_VENDA
+        {
+            get { return _PRECO_VENDA; }
+            set
+            {
+                if (value >= 0) _PRECO_VENDA = value;
+                else throw new Exception("Preço não pode ser negativo");
+            }
+        }
+
+        private int _QTD_REAL;
+
+        public int QTD_REAL
+        {
+            get { return _QTD_REAL; }
+            set { _QTD_REAL = value; }
+        }
+
+        private int _QTD_MINIMA;
+
+        public int QTD_MINIMA
+        {
+            get { return _QTD_MINIMA; }
+            set { _QTD_MINIMA = value; }
+        }
+
+        private string _CLAS_FISC;
+
+        public string CLAS_FISC
+        {
+            get { return _CLAS_FISC; }
+            set { _CLAS_FISC = value; }
+        }
+
+        private int _IPI;
+
+        public int IPI
+        {
+            get { return _IPI; }
+            set { _IPI = value; }
+        }
+
+        private decimal _PESO_LIQ;
+
+        public decimal PESO_LIQ
+        {
+            get { return _PESO_LIQ; }
+            set { _PESO_LIQ = value; }
+        }
+    }

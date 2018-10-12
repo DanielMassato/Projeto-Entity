@@ -1,0 +1,5 @@
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\Nist\bin\Debug\Nist.dll
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\Nist\bin\Debug\Nist.pdb
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\Nist\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\Nist\obj\Debug\Nist.dll
+C:\Magno\Impacta\CSharp\2010\Modulo_2\Z_Extra\NIST\Nist\obj\Debug\Nist.pdb

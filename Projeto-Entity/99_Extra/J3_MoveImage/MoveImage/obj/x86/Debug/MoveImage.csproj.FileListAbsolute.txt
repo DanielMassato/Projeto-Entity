@@ -1,0 +1,9 @@
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\bin\Debug\MoveImage.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\bin\Debug\MoveImage.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\MoveImage.Form1.resources
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\MoveImage.Properties.Resources.resources
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\MoveImage.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\MoveImage\MoveImage\obj\x86\Debug\MoveImage.pdb

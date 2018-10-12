@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PEDIDOSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="PRODUTOS">
+          <Key>
+            <PropertyRef Name="ID_PRODUTO" />
+          </Key>
+          <Property Name="ID_PRODUTO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="COD_PRODUTO" Type="varchar" MaxLength="13" Nullable="false" />
+          <Property Name="DESCRICAO" Type="varchar" MaxLength="40" />
+          <Property Name="COD_UNIDADE" Type="smallint" />
+          <Property Name="COD_TIPO" Type="smallint" />
+          <Property Name="PRECO_CUSTO" Type="numeric" Precision="18" Scale="4" />
+          <Property Name="PRECO_VENDA" Type="numeric" Precision="18" Scale="4" />
+          <Property Name="QTD_ESTIMADA" Type="int" />
+          <Property Name="QTD_REAL" Type="int" />
+          <Property Name="QTD_MINIMA" Type="int" />
+          <Property Name="CLAS_FISC" Type="varchar" MaxLength="10" />
+          <Property Name="IPI" Type="int" />
+          <Property Name="PESO_LIQ" Type="numeric" Precision="18" Scale="2" />
+        </EntityType>
+        <EntityType Name="TIPOPRODUTO">
+          <Key>
+            <PropertyRef Name="COD_TIPO" />
+          </Key>
+          <Property Name="COD_TIPO" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TIPO" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="UNIDADES">
+          <Key>
+            <PropertyRef Name="COD_UNIDADE" />
+          </Key>
+          <Property Name="COD_UNIDADE" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UNIDADE" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="USUARIOS">
+          <Key>
+            <PropertyRef Name="ID_USER" />
+          </Key>
+          <Property Name="ID_USER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="30" />
+          <Property Name="USER_LOGIN" Type="varchar" MaxLength="10" />
+          <Property Name="USER_PWS" Type="varchar" MaxLength="10" />
+          <Property Name="NIVEL" Type="smallint" />
+        </EntityType>
+        <Association Name="FK_PRODUTOS_TIPOPRODUTO">
+          <End Role="TIPOPRODUTO" Type="Self.TIPOPRODUTO" Multiplicity="0..1" />
+          <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPOPRODUTO">
+              <PropertyRef Name="COD_TIPO" />
+            </Principal>
+            <Dependent Role="PRODUTOS">
+              <PropertyRef Name="COD_TIPO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUTOS_UNIDADES">
+          <End Role="UNIDADES" Type="Self.UNIDADES" Multiplicity="0..1" />
+          <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UNIDADES">
+              <PropertyRef Name="COD_UNIDADE" />
+            </Principal>
+            <Dependent Role="PRODUTOS">
+              <PropertyRef Name="COD_UNIDADE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PEDIDOSModelStoreContainer">
+          <EntitySet Name="PRODUTOS" EntityType="Self.PRODUTOS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TIPOPRODUTO" EntityType="Self.TIPOPRODUTO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UNIDADES" EntityType="Self.UNIDADES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_PRODUTOS_TIPOPRODUTO" Association="Self.FK_PRODUTOS_TIPOPRODUTO">
+            <End Role="TIPOPRODUTO" EntitySet="TIPOPRODUTO" />
+            <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUTOS_UNIDADES" Association="Self.FK_PRODUTOS_UNIDADES">
+            <End Role="UNIDADES" EntitySet="UNIDADES" />
+            <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PEDIDOSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PRODUTOS">
+          <Key>
+            <PropertyRef Name="ID_PRODUTO" />
+          </Key>
+          <Property Name="ID_PRODUTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="COD_PRODUTO" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DESCRICAO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="COD_UNIDADE" Type="Int16" />
+          <Property Name="COD_TIPO" Type="Int16" />
+          <Property Name="PRECO_CUSTO" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="PRECO_VENDA" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="QTD_ESTIMADA" Type="Int32" />
+          <Property Name="QTD_REAL" Type="Int32" />
+          <Property Name="QTD_MINIMA" Type="Int32" />
+          <Property Name="CLAS_FISC" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="IPI" Type="Int32" />
+          <Property Name="PESO_LIQ" Type="Decimal" Precision="18" Scale="2" />
+          <NavigationProperty Name="TIPOPRODUTO" Relationship="Self.FK_PRODUTOS_TIPOPRODUTO" FromRole="PRODUTOS" ToRole="TIPOPRODUTO" />
+          <NavigationProperty Name="UNIDADES" Relationship="Self.FK_PRODUTOS_UNIDADES" FromRole="PRODUTOS" ToRole="UNIDADES" />
+        </EntityType>
+        <EntityType Name="TIPOPRODUTO">
+          <Key>
+            <PropertyRef Name="COD_TIPO" />
+          </Key>
+          <Property Name="COD_TIPO" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TIPO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PRODUTOS" Relationship="Self.FK_PRODUTOS_TIPOPRODUTO" FromRole="TIPOPRODUTO" ToRole="PRODUTOS" />
+        </EntityType>
+        <EntityType Name="UNIDADES">
+          <Key>
+            <PropertyRef Name="COD_UNIDADE" />
+          </Key>
+          <Property Name="COD_UNIDADE" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UNIDADE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PRODUTOS" Relationship="Self.FK_PRODUTOS_UNIDADES" FromRole="UNIDADES" ToRole="PRODUTOS" />
+        </EntityType>
+        <Association Name="FK_PRODUTOS_TIPOPRODUTO">
+          <End Role="TIPOPRODUTO" Type="Self.TIPOPRODUTO" Multiplicity="0..1" />
+          <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPOPRODUTO">
+              <PropertyRef Name="COD_TIPO" />
+            </Principal>
+            <Dependent Role="PRODUTOS">
+              <PropertyRef Name="COD_TIPO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUTOS_UNIDADES">
+          <End Role="UNIDADES" Type="Self.UNIDADES" Multiplicity="0..1" />
+          <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UNIDADES">
+              <PropertyRef Name="COD_UNIDADE" />
+            </Principal>
+            <Dependent Role="PRODUTOS">
+              <PropertyRef Name="COD_UNIDADE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PEDIDOSEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PRODUTOS" EntityType="Self.PRODUTOS" />
+          <EntitySet Name="TIPOPRODUTO" EntityType="Self.TIPOPRODUTO" />
+          <EntitySet Name="UNIDADES" EntityType="Self.UNIDADES" />
+          <AssociationSet Name="FK_PRODUTOS_TIPOPRODUTO" Association="Self.FK_PRODUTOS_TIPOPRODUTO">
+            <End Role="TIPOPRODUTO" EntitySet="TIPOPRODUTO" />
+            <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUTOS_UNIDADES" Association="Self.FK_PRODUTOS_UNIDADES">
+            <End Role="UNIDADES" EntitySet="UNIDADES" />
+            <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+          </AssociationSet>
+          <EntitySet Name="USUARIOS" EntityType="PEDIDOSModel.USUARIOS" />
+        </EntityContainer>
+        <EntityType Name="USUARIOS">
+          <Key>
+            <PropertyRef Name="ID_USER" />
+          </Key>
+          <Property Name="ID_USER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="USER_LOGIN" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="USER_PWS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="NIVEL" Type="Int16" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PEDIDOSModelStoreContainer" CdmEntityContainer="PEDIDOSEntities">
+          <EntitySetMapping Name="PRODUTOS">
+            <EntityTypeMapping TypeName="PEDIDOSModel.PRODUTOS">
+              <MappingFragment StoreEntitySet="PRODUTOS">
+                <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+                <ScalarProperty Name="COD_PRODUTO" ColumnName="COD_PRODUTO" />
+                <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+                <ScalarProperty Name="COD_UNIDADE" ColumnName="COD_UNIDADE" />
+                <ScalarProperty Name="COD_TIPO" ColumnName="COD_TIPO" />
+                <ScalarProperty Name="PRECO_CUSTO" ColumnName="PRECO_CUSTO" />
+                <ScalarProperty Name="PRECO_VENDA" ColumnName="PRECO_VENDA" />
+                <ScalarProperty Name="QTD_ESTIMADA" ColumnName="QTD_ESTIMADA" />
+                <ScalarProperty Name="QTD_REAL" ColumnName="QTD_REAL" />
+                <ScalarProperty Name="QTD_MINIMA" ColumnName="QTD_MINIMA" />
+                <ScalarProperty Name="CLAS_FISC" ColumnName="CLAS_FISC" />
+                <ScalarProperty Name="IPI" ColumnName="IPI" />
+                <ScalarProperty Name="PESO_LIQ" ColumnName="PESO_LIQ" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TIPOPRODUTO">
+            <EntityTypeMapping TypeName="PEDIDOSModel.TIPOPRODUTO">
+              <MappingFragment StoreEntitySet="TIPOPRODUTO">
+                <ScalarProperty Name="COD_TIPO" ColumnName="COD_TIPO" />
+                <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UNIDADES">
+            <EntityTypeMapping TypeName="PEDIDOSModel.UNIDADES">
+              <MappingFragment StoreEntitySet="UNIDADES">
+                <ScalarProperty Name="COD_UNIDADE" ColumnName="COD_UNIDADE" />
+                <ScalarProperty Name="UNIDADE" ColumnName="UNIDADE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIOS">
+            <EntityTypeMapping TypeName="PEDIDOSModel.USUARIOS">
+              <MappingFragment StoreEntitySet="USUARIOS">
+                <ScalarProperty Name="NIVEL" ColumnName="NIVEL" />
+                <ScalarProperty Name="USER_PWS" ColumnName="USER_PWS" />
+                <ScalarProperty Name="USER_LOGIN" ColumnName="USER_LOGIN" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="ID_USER" ColumnName="ID_USER" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

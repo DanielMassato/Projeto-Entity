@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PEDIDOSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PRODUTOS">
+    <Key>
+      <PropertyRef Name="ID_PRODUTO" />
+    </Key>
+    <Property Name="ID_PRODUTO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COD_PRODUTO" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="DESCRICAO" Type="varchar" MaxLength="40" />
+    <Property Name="COD_UNIDADE" Type="smallint" />
+    <Property Name="COD_TIPO" Type="smallint" />
+    <Property Name="PRECO_CUSTO" Type="numeric" Precision="18" Scale="4" />
+    <Property Name="PRECO_VENDA" Type="numeric" Precision="18" Scale="4" />
+    <Property Name="QTD_ESTIMADA" Type="int" />
+    <Property Name="QTD_REAL" Type="int" />
+    <Property Name="QTD_MINIMA" Type="int" />
+    <Property Name="CLAS_FISC" Type="varchar" MaxLength="10" />
+    <Property Name="IPI" Type="int" />
+    <Property Name="PESO_LIQ" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="TIPOPRODUTO">
+    <Key>
+      <PropertyRef Name="COD_TIPO" />
+    </Key>
+    <Property Name="COD_TIPO" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TIPO" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="UNIDADES">
+    <Key>
+      <PropertyRef Name="COD_UNIDADE" />
+    </Key>
+    <Property Name="COD_UNIDADE" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UNIDADE" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOME" Type="varchar" MaxLength="30" />
+    <Property Name="USER_LOGIN" Type="varchar" MaxLength="10" />
+    <Property Name="USER_PWS" Type="varchar" MaxLength="10" />
+    <Property Name="NIVEL" Type="smallint" />
+  </EntityType>
+  <Association Name="FK_PRODUTOS_TIPOPRODUTO">
+    <End Role="TIPOPRODUTO" Type="Self.TIPOPRODUTO" Multiplicity="0..1" />
+    <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPOPRODUTO">
+        <PropertyRef Name="COD_TIPO" />
+      </Principal>
+      <Dependent Role="PRODUTOS">
+        <PropertyRef Name="COD_TIPO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUTOS_UNIDADES">
+    <End Role="UNIDADES" Type="Self.UNIDADES" Multiplicity="0..1" />
+    <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UNIDADES">
+        <PropertyRef Name="COD_UNIDADE" />
+      </Principal>
+      <Dependent Role="PRODUTOS">
+        <PropertyRef Name="COD_UNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PEDIDOSModelStoreContainer">
+    <EntitySet Name="PRODUTOS" EntityType="Self.PRODUTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPOPRODUTO" EntityType="Self.TIPOPRODUTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UNIDADES" EntityType="Self.UNIDADES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PRODUTOS_TIPOPRODUTO" Association="Self.FK_PRODUTOS_TIPOPRODUTO">
+      <End Role="TIPOPRODUTO" EntitySet="TIPOPRODUTO" />
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUTOS_UNIDADES" Association="Self.FK_PRODUTOS_UNIDADES">
+      <End Role="UNIDADES" EntitySet="UNIDADES" />
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

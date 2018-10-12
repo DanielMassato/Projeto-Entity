@@ -1,0 +1,17 @@
+      try
+        {         
+
+            // colocar os elementos na lista de retorno
+            List<UNIDADES> result = new List<UNIDADES>();
+
+            result = ped.UNIDADES.OrderBy(t => t.UNIDADE).ToList();
+
+            erro = "";
+            return result;
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExecption(ex);
+            erro = ex.Message;
+            return null;
+        }

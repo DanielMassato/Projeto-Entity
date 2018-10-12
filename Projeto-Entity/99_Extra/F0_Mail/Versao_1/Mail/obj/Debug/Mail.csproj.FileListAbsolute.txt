@@ -1,0 +1,11 @@
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\bin\Debug\Mail.exe
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\bin\Debug\Mail.pdb
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\bin\Debug\Curso.Classes.dll
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\bin\Debug\Curso.Classes.pdb
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\bin\Debug\Curso.Classes.xml
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\obj\Debug\Mail.Form1.resources
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\obj\Debug\Mail.Properties.Resources.resources
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\obj\Debug\Mail.csproj.GenerateResource.Cache
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\obj\Debug\Mail.exe
+C:\Magno\Impacta\CSharp\Curso_2008\Mail\Mail\obj\Debug\Mail.pdb

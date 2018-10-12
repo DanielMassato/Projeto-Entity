@@ -1,0 +1,11 @@
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\bin\Debug\TabelaComDocsDentro.exe
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\bin\Debug\TabelaComDocsDentro.pdb
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\TabelaComDocsDentro.Form1.resources
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\TabelaComDocsDentro.Properties.Resources.resources
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\TabelaComDocsDentro.exe
+C:\CSharp_Mod_II\ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\TabelaComDocsDentro.pdb
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\02_ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\TabelaComDocsDentro.exe
+C:\CSharp_Mod_II\CSharp_Mod_II\Z_Extra\02_ArmazenamentoDocumentos\TabelaComDocsDentro\TabelaComDocsDentro\obj\x86\Debug\TabelaComDocsDentro.pdb

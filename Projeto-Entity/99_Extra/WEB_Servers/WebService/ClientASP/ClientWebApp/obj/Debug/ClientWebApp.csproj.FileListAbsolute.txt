@@ -1,0 +1,5 @@
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientASP\ClientWebApp\bin\ClientWebApp.dll
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientASP\ClientWebApp\bin\ClientWebApp.pdb
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientASP\ClientWebApp\obj\Debug\ClientWebApp.csprojResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientASP\ClientWebApp\obj\Debug\ClientWebApp.dll
+C:\Magno\Impacta\CSharp\Z_Extra\WEB_Servers\WebService\ClientASP\ClientWebApp\obj\Debug\ClientWebApp.pdb

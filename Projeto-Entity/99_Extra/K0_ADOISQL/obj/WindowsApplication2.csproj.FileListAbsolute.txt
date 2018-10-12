@@ -1,0 +1,11 @@
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\bin\Debug\Interop.MSDASC.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\Interop.MSDASC.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.csproj.ResolveComReference.cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Form1.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Properties.Resources.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.csproj.GenerateResource.Cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.exe
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.pdb

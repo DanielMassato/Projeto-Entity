@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalClockConsole", "DigitalClockConsole\DigitalClockConsole.csproj", "{144869EB-C710-4AA4-9225-D29A5A8F1AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NistClock", "NistClock\NistClock.csproj", "{CD990989-31CB-416B-86F2-30F5EC9F7E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiNistClock", "GuiNistClock\GuiNistClock.csproj", "{77E9E61E-1D79-495C-8471-2455958730F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nist", "Nist\Nist.csproj", "{98125213-6095-4ED6-AD59-AA4CED70C38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{144869EB-C710-4AA4-9225-D29A5A8F1AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144869EB-C710-4AA4-9225-D29A5A8F1AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144869EB-C710-4AA4-9225-D29A5A8F1AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144869EB-C710-4AA4-9225-D29A5A8F1AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD990989-31CB-416B-86F2-30F5EC9F7E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD990989-31CB-416B-86F2-30F5EC9F7E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD990989-31CB-416B-86F2-30F5EC9F7E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD990989-31CB-416B-86F2-30F5EC9F7E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E9E61E-1D79-495C-8471-2455958730F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E9E61E-1D79-495C-8471-2455958730F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E9E61E-1D79-495C-8471-2455958730F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E9E61E-1D79-495C-8471-2455958730F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98125213-6095-4ED6-AD59-AA4CED70C38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98125213-6095-4ED6-AD59-AA4CED70C38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98125213-6095-4ED6-AD59-AA4CED70C38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98125213-6095-4ED6-AD59-AA4CED70C38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

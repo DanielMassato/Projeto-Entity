@@ -1,0 +1,47 @@
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\Interop.MSDASC.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\ADOISQL.csproj.ResolveComReference.cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Form1.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Properties.Resources.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\ADOISQL.csproj.GenerateResource.Cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.exe
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\bin\Debug\Interop.MSDASC.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.exe
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\WindowsApplication2.exe
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\WindowsApplication2.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Interop.MSDASC.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\Interop.MSDASC.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\ADOISQL.csproj.ResolveComReference.cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.Form1.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.Properties.Resources.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\ADOISQL.csproj.GenerateResource.Cache
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.FrmConfigCol.resources
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Curso.Classes.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Curso.Classes.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Curso.Controles.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Curso.Controles.pdb
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Magno.PrintDataGridView.dll
+C:\Documents and Settings\CARLOS MAGNO SOUZA\Meus documentos\Visual Studio 2005\ADOISQL\ADOISQL\bin\Debug\Magno.PrintDataGridView.pdb
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.exe
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.pdb
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\ResolveAssemblyReference.cache
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\Interop.MSDASC.dll
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\Interop.ShockwaveFlashObjects.dll
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\ADOISQL.csproj.ResolveComReference.cache
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.Form1.resources
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.FrmConfigCol.resources
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\WindowsApplication2.Properties.Resources.resources
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\obj\Debug\ADOISQL.csproj.GenerateResource.Cache
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\bin\Debug\WindowsApplication2.exe
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\bin\Debug\WindowsApplication2.pdb
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\bin\Debug\Curso.Controles.pdb
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\bin\Debug\Curso.Classes.pdb
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\bin\Debug\Interop.MSDASC.dll
+E:\impacta\CSharp\Curso\Projetos\ADOISQL\ADOISQL\bin\Debug\Interop.ShockwaveFlashObjects.dll

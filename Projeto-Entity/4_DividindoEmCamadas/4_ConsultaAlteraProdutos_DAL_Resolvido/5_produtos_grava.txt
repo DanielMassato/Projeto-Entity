@@ -1,0 +1,14 @@
+﻿ // transfere para o objeto Produto os dados digitados nos TextBox
+                pr.ID_PRODUTO = this.IdProduto;
+                pr.COD_PRODUTO = tbxCOD_PRODUTO.Text;
+                pr.DESCRICAO = tbxDESCRICAO.Text;
+                pr.COD_TIPO = (short)cmbTipo.SelectedValue;
+                pr.COD_UNIDADE = (short)cmbUnidades.SelectedValue;
+                pr.PRECO_CUSTO = updPRECO_CUSTO.Value;
+                pr.PRECO_VENDA = updPRECO_VENDA.Value;
+
+                pr.QTD_MINIMA = (int)updQTD_MINIMA.Value;
+                pr.QTD_REAL = (int)updQTD_REAL.Value;
+
+                pr.CLAS_FISC = tbxCLAS_FISC.Text;
+                pr.IPI = (int)updIPI.Value;

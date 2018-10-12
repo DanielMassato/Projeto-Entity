@@ -1,0 +1,32 @@
+try
+        {
+            // busca o produto qe tem ID igual ao recebido como parâmetro
+            var pr = ped.PRODUTOS.Where(p => p.ID_PRODUTO == idProduto);
+            erro = "";
+            // se não trouxe nada...
+            if (pr.Count() == 0) return null;
+            // retornar objeto da classe PRODUTOS contendo os campos do
+            // produto encontrado
+            return new PRODUTOS
+            {
+                ID_PRODUTO = pr.First().ID_PRODUTO,
+                COD_PRODUTO = pr.First().COD_PRODUTO,
+                DESCRICAO = pr.First().DESCRICAO,
+                COD_TIPO = pr.First().COD_TIPO,
+                COD_UNIDADE = pr.First().COD_UNIDADE,
+                CLAS_FISC = pr.First().CLAS_FISC,
+                PESO_LIQ = pr.First().PESO_LIQ,
+                IPI = pr.First().IPI,
+                PRECO_CUSTO = pr.First().PRECO_CUSTO,
+                PRECO_VENDA = pr.First().PRECO_VENDA,
+                QTD_ESTIMADA = pr.First().QTD_ESTIMADA,
+                QTD_REAL = pr.First().QTD_REAL,
+                QTD_MINIMA = pr.First().QTD_MINIMA
+            };
+        }
+        catch (Exception ex)
+        {
+            ex = getInnerExcption(ex);
+            erro = ex.Message;
+            return null;
+        }

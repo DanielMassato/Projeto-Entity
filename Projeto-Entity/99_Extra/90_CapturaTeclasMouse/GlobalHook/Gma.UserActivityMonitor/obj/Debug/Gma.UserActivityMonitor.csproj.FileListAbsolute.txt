@@ -1,0 +1,5 @@
+C:\Magno\Impacta\CSharp\Curso_2008\CapturaTeclas\captura2\GlobalHook\Gma.UserActivityMonitor\bin\Debug\Gma.UserActivityMonitor.dll
+C:\Magno\Impacta\CSharp\Curso_2008\CapturaTeclas\captura2\GlobalHook\Gma.UserActivityMonitor\bin\Debug\Gma.UserActivityMonitor.pdb
+C:\Magno\Impacta\CSharp\Curso_2008\CapturaTeclas\captura2\GlobalHook\Gma.UserActivityMonitor\obj\Debug\ResolveAssemblyReference.cache
+C:\Magno\Impacta\CSharp\Curso_2008\CapturaTeclas\captura2\GlobalHook\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.dll
+C:\Magno\Impacta\CSharp\Curso_2008\CapturaTeclas\captura2\GlobalHook\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.pdb
